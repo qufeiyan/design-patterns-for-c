@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/ClionProjects/design-patterns-for-c/AbstractFactory/inc/AbstractFactory.h
+stdio.h
+E:/ClionProjects/design-patterns-for-c/AbstractFactory/inc/stdio.h
+
+E:/ClionProjects/design-patterns-for-c/AbstractFactory/main.c
+stdio.h
+-
+inc/AbstractFactory.h
+E:/ClionProjects/design-patterns-for-c/AbstractFactory/inc/AbstractFactory.h
+
