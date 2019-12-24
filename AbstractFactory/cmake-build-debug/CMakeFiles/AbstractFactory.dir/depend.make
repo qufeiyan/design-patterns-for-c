@@ -4,4 +4,6 @@
 CMakeFiles/AbstractFactory.dir/main.c.obj: ../inc/AbstractFactory.h
 CMakeFiles/AbstractFactory.dir/main.c.obj: ../main.c
 
+CMakeFiles/AbstractFactory.dir/src/AbstractFactory.c.obj: ../inc/AbstractFactory.h
+CMakeFiles/AbstractFactory.dir/src/AbstractFactory.c.obj: ../src/AbstractFactory.c
 

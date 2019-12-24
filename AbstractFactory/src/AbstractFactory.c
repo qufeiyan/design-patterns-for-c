@@ -12,7 +12,7 @@ public static inline void getDescriptionForWoodenDoor(void){
  */
 WoodenDoor *createWoodenDoor(void){
     WoodenDoor *obj =  malloc(sizeof(struct WoodenDoor));
-    obj->base->getDescription = getDescriptionForWoodenDoor;
+    obj->base.getDescription = getDescriptionForWoodenDoor;
     return obj;
 }
 
@@ -33,7 +33,7 @@ public static inline void getDescriptionForIronDoor(void){
  */
 IronDoor *createIronDoor(void){
     IronDoor *obj = malloc(sizeof(IronDoor));
-    obj->base->getDescription = getDescriptionForIronDoor;
+    obj->base.getDescription = getDescriptionForIronDoor;
     return obj;
 }
 
@@ -53,7 +53,7 @@ public static inline void getDescriptionForWelder(void){
  */
 Welder *createWelder(void){
     Welder *obj = malloc(sizeof(Welder));
-    obj->base->getDescription = getDescriptionForWelder;
+    obj->base.getDescription = getDescriptionForWelder;
     return obj;
 }
 
@@ -72,7 +72,7 @@ public static inline void getDescriptionForCarpenter(){
  */
 Carpenter *createCarpenter(void){
     Carpenter *obj = malloc(sizeof(Carpenter));
-    obj->base->getDescription = getDescriptionForCarpenter;
+    obj->base.getDescription = getDescriptionForCarpenter;
     return obj;
 }
 
@@ -96,8 +96,8 @@ public static inline DoorFittingExpert* makeDoorFittingExpertForWoodenFactory(){
 WoodenDoorFactory *createWoodenDoorFactory(){
     WoodenDoorFactory *obj = malloc(sizeof(WoodenDoorFactory));
   //  obj->base = malloc(sizeof(DoorFactory));
-    obj->base->makeDoor = makeDoorForWoodenFactory;
-    obj->base->makeDoorFittingExpert = makeDoorFittingExpertForWoodenFactory;
+    obj->base.makeDoor = makeDoorForWoodenFactory;
+    obj->base.makeDoorFittingExpert = makeDoorFittingExpertForWoodenFactory;
     return obj;
 }
 
@@ -121,8 +121,8 @@ public static inline DoorFittingExpert *makeDoorFittingExpertForIronDoorFactory(
 IronDoorFactory *createIronDoorFactory(){
     IronDoorFactory *obj = (IronDoorFactory *)malloc(sizeof(IronDoorFactory));
    // obj->base = (DoorFactory*)malloc(sizeof(DoorFactory));
-    obj->base->makeDoor = makeDoorForIronDoorFactory;
-    obj->base->makeDoorFittingExpert = makeDoorFittingExpertForIronDoorFactory;
+    obj->base.makeDoor = makeDoorForIronDoorFactory;
+    obj->base.makeDoorFittingExpert = makeDoorFittingExpertForIronDoorFactory;
     return obj;
 }
 

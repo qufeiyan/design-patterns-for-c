@@ -6,13 +6,15 @@
 
 #IncludeRegexTransform: 
 
-E:/ClionProjects/design-patterns-for-c/AbstractFactory/inc/AbstractFactory.h
+C:/Users/Elena/Desktop/design-patterns-for-c/AbstractFactory/inc/AbstractFactory.h
 stdio.h
-E:/ClionProjects/design-patterns-for-c/AbstractFactory/inc/stdio.h
+C:/Users/Elena/Desktop/design-patterns-for-c/AbstractFactory/inc/stdio.h
 
-E:/ClionProjects/design-patterns-for-c/AbstractFactory/main.c
+C:/Users/Elena/Desktop/design-patterns-for-c/AbstractFactory/main.c
 stdio.h
 -
 inc/AbstractFactory.h
-E:/ClionProjects/design-patterns-for-c/AbstractFactory/inc/AbstractFactory.h
+C:/Users/Elena/Desktop/design-patterns-for-c/AbstractFactory/inc/AbstractFactory.h
+malloc.h
+C:/Users/Elena/Desktop/design-patterns-for-c/AbstractFactory/malloc.h
 

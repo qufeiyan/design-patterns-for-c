@@ -18,14 +18,14 @@ interface IDoor{
 
 #define implements_IDoor
 Class WoodenDoor implements_IDoor{
-    Door *base;
+    Door base;
 }WoodenDoor;
 
 WoodenDoor *createWoodenDoor(void);
 void deleteWoodenDoor(WoodenDoor *obj);
 
 Class IronDoor implements_IDoor{
-    Door *base;
+    Door base;
 }IronDoor;
 
 IronDoor *createIronDoor(void);
@@ -39,7 +39,7 @@ interface IDoorFittingExpert{
 
 #define implements_IDoorFittingExpert
 Class Welder implements_IDoorFittingExpert{
-    DoorFittingExpert *base;
+    DoorFittingExpert base;
 }Welder;
 
 Welder *createWelder(void);
@@ -47,7 +47,7 @@ void deleteWelder(Welder *obj);
 
 
 Class Carpenter implements_IDoorFittingExpert{
-    DoorFittingExpert *base;
+    DoorFittingExpert base;
 }Carpenter;
 
 Carpenter *createCarpenter(void);
@@ -65,13 +65,13 @@ interface IDoorFactory{
 
 #define implements_IDoorFactory
 Class WoodenDoorFactory implements_IDoorFactory{
-    DoorFactory *base;
+    DoorFactory base;
 }WoodenDoorFactory;
 WoodenDoorFactory *createWoodenDoorFactory(void);
 void deleteWoodenDoorFactory(WoodenDoorFactory *obj);
 
 Class IronDoorFactory implements_IDoorFactory{
-    DoorFactory *base;
+    DoorFactory base;
 }IronDoorFactory;
 
 IronDoorFactory *createIronDoorFactory(void);

@@ -1,3 +1,3 @@
-E:/ClionProjects/design-patterns-for-c/AbstractFactory/cmake-build-debug/CMakeFiles/AbstractFactory.dir
-E:/ClionProjects/design-patterns-for-c/AbstractFactory/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/ClionProjects/design-patterns-for-c/AbstractFactory/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Elena/Desktop/design-patterns-for-c/AbstractFactory/cmake-build-debug/CMakeFiles/AbstractFactory.dir
+C:/Users/Elena/Desktop/design-patterns-for-c/AbstractFactory/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Elena/Desktop/design-patterns-for-c/AbstractFactory/cmake-build-debug/CMakeFiles/rebuild_cache.dir

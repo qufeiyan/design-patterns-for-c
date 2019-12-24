@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = D:\Softwares\JetBrains\CLion\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = D:\Softwares\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\ClionProjects\design-patterns-for-c\AbstractFactory
+CMAKE_SOURCE_DIR = C:\Users\Elena\Desktop\design-patterns-for-c\AbstractFactory
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\ClionProjects\design-patterns-for-c\AbstractFactory\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Elena\Desktop\design-patterns-for-c\AbstractFactory\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/AbstractFactory.dir/depend.make
@@ -58,29 +58,29 @@ include CMakeFiles/AbstractFactory.dir/flags.make
 
 CMakeFiles/AbstractFactory.dir/main.c.obj: CMakeFiles/AbstractFactory.dir/flags.make
 CMakeFiles/AbstractFactory.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\ClionProjects\design-patterns-for-c\AbstractFactory\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/AbstractFactory.dir/main.c.obj"
-	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\AbstractFactory.dir\main.c.obj   -c E:\ClionProjects\design-patterns-for-c\AbstractFactory\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elena\Desktop\design-patterns-for-c\AbstractFactory\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/AbstractFactory.dir/main.c.obj"
+	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\AbstractFactory.dir\main.c.obj   -c C:\Users\Elena\Desktop\design-patterns-for-c\AbstractFactory\main.c
 
 CMakeFiles/AbstractFactory.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/AbstractFactory.dir/main.c.i"
-	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\ClionProjects\design-patterns-for-c\AbstractFactory\main.c > CMakeFiles\AbstractFactory.dir\main.c.i
+	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elena\Desktop\design-patterns-for-c\AbstractFactory\main.c > CMakeFiles\AbstractFactory.dir\main.c.i
 
 CMakeFiles/AbstractFactory.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AbstractFactory.dir/main.c.s"
-	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\ClionProjects\design-patterns-for-c\AbstractFactory\main.c -o CMakeFiles\AbstractFactory.dir\main.c.s
+	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elena\Desktop\design-patterns-for-c\AbstractFactory\main.c -o CMakeFiles\AbstractFactory.dir\main.c.s
 
 CMakeFiles/AbstractFactory.dir/src/AbstractFactory.c.obj: CMakeFiles/AbstractFactory.dir/flags.make
 CMakeFiles/AbstractFactory.dir/src/AbstractFactory.c.obj: ../src/AbstractFactory.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\ClionProjects\design-patterns-for-c\AbstractFactory\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/AbstractFactory.dir/src/AbstractFactory.c.obj"
-	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\AbstractFactory.dir\src\AbstractFactory.c.obj   -c E:\ClionProjects\design-patterns-for-c\AbstractFactory\src\AbstractFactory.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elena\Desktop\design-patterns-for-c\AbstractFactory\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/AbstractFactory.dir/src/AbstractFactory.c.obj"
+	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\AbstractFactory.dir\src\AbstractFactory.c.obj   -c C:\Users\Elena\Desktop\design-patterns-for-c\AbstractFactory\src\AbstractFactory.c
 
 CMakeFiles/AbstractFactory.dir/src/AbstractFactory.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/AbstractFactory.dir/src/AbstractFactory.c.i"
-	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\ClionProjects\design-patterns-for-c\AbstractFactory\src\AbstractFactory.c > CMakeFiles\AbstractFactory.dir\src\AbstractFactory.c.i
+	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elena\Desktop\design-patterns-for-c\AbstractFactory\src\AbstractFactory.c > CMakeFiles\AbstractFactory.dir\src\AbstractFactory.c.i
 
 CMakeFiles/AbstractFactory.dir/src/AbstractFactory.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AbstractFactory.dir/src/AbstractFactory.c.s"
-	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\ClionProjects\design-patterns-for-c\AbstractFactory\src\AbstractFactory.c -o CMakeFiles\AbstractFactory.dir\src\AbstractFactory.c.s
+	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elena\Desktop\design-patterns-for-c\AbstractFactory\src\AbstractFactory.c -o CMakeFiles\AbstractFactory.dir\src\AbstractFactory.c.s
 
 # Object files for target AbstractFactory
 AbstractFactory_OBJECTS = \
@@ -96,7 +96,7 @@ AbstractFactory.exe: CMakeFiles/AbstractFactory.dir/build.make
 AbstractFactory.exe: CMakeFiles/AbstractFactory.dir/linklibs.rsp
 AbstractFactory.exe: CMakeFiles/AbstractFactory.dir/objects1.rsp
 AbstractFactory.exe: CMakeFiles/AbstractFactory.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\ClionProjects\design-patterns-for-c\AbstractFactory\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable AbstractFactory.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Elena\Desktop\design-patterns-for-c\AbstractFactory\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable AbstractFactory.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\AbstractFactory.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -109,6 +109,6 @@ CMakeFiles/AbstractFactory.dir/clean:
 .PHONY : CMakeFiles/AbstractFactory.dir/clean
 
 CMakeFiles/AbstractFactory.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\ClionProjects\design-patterns-for-c\AbstractFactory E:\ClionProjects\design-patterns-for-c\AbstractFactory E:\ClionProjects\design-patterns-for-c\AbstractFactory\cmake-build-debug E:\ClionProjects\design-patterns-for-c\AbstractFactory\cmake-build-debug E:\ClionProjects\design-patterns-for-c\AbstractFactory\cmake-build-debug\CMakeFiles\AbstractFactory.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Elena\Desktop\design-patterns-for-c\AbstractFactory C:\Users\Elena\Desktop\design-patterns-for-c\AbstractFactory C:\Users\Elena\Desktop\design-patterns-for-c\AbstractFactory\cmake-build-debug C:\Users\Elena\Desktop\design-patterns-for-c\AbstractFactory\cmake-build-debug C:\Users\Elena\Desktop\design-patterns-for-c\AbstractFactory\cmake-build-debug\CMakeFiles\AbstractFactory.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/AbstractFactory.dir/depend
 

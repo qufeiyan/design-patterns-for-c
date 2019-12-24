@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "E:/ClionProjects/design-patterns-for-c/AbstractFactory/main.c" "E:/ClionProjects/design-patterns-for-c/AbstractFactory/cmake-build-debug/CMakeFiles/AbstractFactory.dir/main.c.obj"
-  "E:/ClionProjects/design-patterns-for-c/AbstractFactory/src/AbstractFactory.c" "E:/ClionProjects/design-patterns-for-c/AbstractFactory/cmake-build-debug/CMakeFiles/AbstractFactory.dir/src/AbstractFactory.c.obj"
+  "C:/Users/Elena/Desktop/design-patterns-for-c/AbstractFactory/main.c" "C:/Users/Elena/Desktop/design-patterns-for-c/AbstractFactory/cmake-build-debug/CMakeFiles/AbstractFactory.dir/main.c.obj"
+  "C:/Users/Elena/Desktop/design-patterns-for-c/AbstractFactory/src/AbstractFactory.c" "C:/Users/Elena/Desktop/design-patterns-for-c/AbstractFactory/cmake-build-debug/CMakeFiles/AbstractFactory.dir/src/AbstractFactory.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
