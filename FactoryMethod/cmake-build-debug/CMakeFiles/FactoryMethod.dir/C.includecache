@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Elena/Desktop/design-patterns-for-c/FactoryMethod/inc/FactoryMethod.h
+stdio.h
+C:/Users/Elena/Desktop/design-patterns-for-c/FactoryMethod/inc/stdio.h
+
+C:/Users/Elena/Desktop/design-patterns-for-c/FactoryMethod/main.c
+stdio.h
+-
+inc/FactoryMethod.h
+C:/Users/Elena/Desktop/design-patterns-for-c/FactoryMethod/inc/FactoryMethod.h
+

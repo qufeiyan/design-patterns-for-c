@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Elena/Desktop/design-patterns-for-c/Builder/inc/Builder.h
+
+C:/Users/Elena/Desktop/design-patterns-for-c/Builder/main.c
+stdio.h
+-
+inc/Builder.h
+C:/Users/Elena/Desktop/design-patterns-for-c/Builder/inc/Builder.h
+
