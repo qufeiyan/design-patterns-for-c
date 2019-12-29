@@ -55,5 +55,10 @@ Sheep cloned = original.clone();
 cloned.setName("Dolly");
 System.out.println(cloned.getName()); // Dolly
 ```
+```plantumlcode
+@startuml
+alice->bob:hello
+@enduml
+```
 
 

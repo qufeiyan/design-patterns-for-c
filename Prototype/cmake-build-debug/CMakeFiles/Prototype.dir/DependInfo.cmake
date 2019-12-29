@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/Elena/Desktop/design-patterns-for-c/Prototype/main.c" "C:/Users/Elena/Desktop/design-patterns-for-c/Prototype/cmake-build-debug/CMakeFiles/Prototype.dir/main.c.obj"
-  "C:/Users/Elena/Desktop/design-patterns-for-c/Prototype/src/Prototype.c" "C:/Users/Elena/Desktop/design-patterns-for-c/Prototype/cmake-build-debug/CMakeFiles/Prototype.dir/src/Prototype.c.obj"
+  "E:/ClionProjects/design-patterns-for-c/Prototype/main.c" "E:/ClionProjects/design-patterns-for-c/Prototype/cmake-build-debug/CMakeFiles/Prototype.dir/main.c.obj"
+  "E:/ClionProjects/design-patterns-for-c/Prototype/src/Prototype.c" "E:/ClionProjects/design-patterns-for-c/Prototype/cmake-build-debug/CMakeFiles/Prototype.dir/src/Prototype.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

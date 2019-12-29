@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/ClionProjects/design-patterns-for-c/Prototype/inc/Prototype.h
+
+E:/ClionProjects/design-patterns-for-c/Prototype/main.c
+stdio.h
+-
+malloc.h
+-
+inc/Prototype.h
+E:/ClionProjects/design-patterns-for-c/Prototype/inc/Prototype.h
+

@@ -34,19 +34,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = D:\Softwares\JetBrains\CLion\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = D:\Softwares\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Elena\Desktop\design-patterns-for-c\Prototype
+CMAKE_SOURCE_DIR = E:\ClionProjects\design-patterns-for-c\Prototype
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Elena\Desktop\design-patterns-for-c\Prototype\cmake-build-debug
+CMAKE_BINARY_DIR = E:\ClionProjects\design-patterns-for-c\Prototype\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -73,14 +73,14 @@ preinstall:
 CMakeFiles/Prototype.dir/all:
 	$(MAKE) -f CMakeFiles\Prototype.dir\build.make CMakeFiles/Prototype.dir/depend
 	$(MAKE) -f CMakeFiles\Prototype.dir\build.make CMakeFiles/Prototype.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Elena\Desktop\design-patterns-for-c\Prototype\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target Prototype"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\ClionProjects\design-patterns-for-c\Prototype\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target Prototype"
 .PHONY : CMakeFiles/Prototype.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Prototype.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Elena\Desktop\design-patterns-for-c\Prototype\cmake-build-debug\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\ClionProjects\design-patterns-for-c\Prototype\cmake-build-debug\CMakeFiles 3
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Prototype.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Elena\Desktop\design-patterns-for-c\Prototype\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\ClionProjects\design-patterns-for-c\Prototype\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Prototype.dir/rule
 
 # Convenience name for target.

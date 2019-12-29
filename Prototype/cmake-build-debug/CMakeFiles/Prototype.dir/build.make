@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = D:\Softwares\JetBrains\CLion\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = D:\Softwares\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Elena\Desktop\design-patterns-for-c\Prototype
+CMAKE_SOURCE_DIR = E:\ClionProjects\design-patterns-for-c\Prototype
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Elena\Desktop\design-patterns-for-c\Prototype\cmake-build-debug
+CMAKE_BINARY_DIR = E:\ClionProjects\design-patterns-for-c\Prototype\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Prototype.dir/depend.make
@@ -58,29 +58,29 @@ include CMakeFiles/Prototype.dir/flags.make
 
 CMakeFiles/Prototype.dir/main.c.obj: CMakeFiles/Prototype.dir/flags.make
 CMakeFiles/Prototype.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elena\Desktop\design-patterns-for-c\Prototype\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Prototype.dir/main.c.obj"
-	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Prototype.dir\main.c.obj   -c C:\Users\Elena\Desktop\design-patterns-for-c\Prototype\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\ClionProjects\design-patterns-for-c\Prototype\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Prototype.dir/main.c.obj"
+	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Prototype.dir\main.c.obj   -c E:\ClionProjects\design-patterns-for-c\Prototype\main.c
 
 CMakeFiles/Prototype.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Prototype.dir/main.c.i"
-	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elena\Desktop\design-patterns-for-c\Prototype\main.c > CMakeFiles\Prototype.dir\main.c.i
+	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\ClionProjects\design-patterns-for-c\Prototype\main.c > CMakeFiles\Prototype.dir\main.c.i
 
 CMakeFiles/Prototype.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Prototype.dir/main.c.s"
-	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elena\Desktop\design-patterns-for-c\Prototype\main.c -o CMakeFiles\Prototype.dir\main.c.s
+	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\ClionProjects\design-patterns-for-c\Prototype\main.c -o CMakeFiles\Prototype.dir\main.c.s
 
 CMakeFiles/Prototype.dir/src/Prototype.c.obj: CMakeFiles/Prototype.dir/flags.make
 CMakeFiles/Prototype.dir/src/Prototype.c.obj: ../src/Prototype.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elena\Desktop\design-patterns-for-c\Prototype\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Prototype.dir/src/Prototype.c.obj"
-	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Prototype.dir\src\Prototype.c.obj   -c C:\Users\Elena\Desktop\design-patterns-for-c\Prototype\src\Prototype.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\ClionProjects\design-patterns-for-c\Prototype\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Prototype.dir/src/Prototype.c.obj"
+	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Prototype.dir\src\Prototype.c.obj   -c E:\ClionProjects\design-patterns-for-c\Prototype\src\Prototype.c
 
 CMakeFiles/Prototype.dir/src/Prototype.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Prototype.dir/src/Prototype.c.i"
-	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elena\Desktop\design-patterns-for-c\Prototype\src\Prototype.c > CMakeFiles\Prototype.dir\src\Prototype.c.i
+	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\ClionProjects\design-patterns-for-c\Prototype\src\Prototype.c > CMakeFiles\Prototype.dir\src\Prototype.c.i
 
 CMakeFiles/Prototype.dir/src/Prototype.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Prototype.dir/src/Prototype.c.s"
-	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elena\Desktop\design-patterns-for-c\Prototype\src\Prototype.c -o CMakeFiles\Prototype.dir\src\Prototype.c.s
+	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\ClionProjects\design-patterns-for-c\Prototype\src\Prototype.c -o CMakeFiles\Prototype.dir\src\Prototype.c.s
 
 # Object files for target Prototype
 Prototype_OBJECTS = \
@@ -96,7 +96,7 @@ Prototype.exe: CMakeFiles/Prototype.dir/build.make
 Prototype.exe: CMakeFiles/Prototype.dir/linklibs.rsp
 Prototype.exe: CMakeFiles/Prototype.dir/objects1.rsp
 Prototype.exe: CMakeFiles/Prototype.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Elena\Desktop\design-patterns-for-c\Prototype\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Prototype.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\ClionProjects\design-patterns-for-c\Prototype\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Prototype.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Prototype.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -109,6 +109,6 @@ CMakeFiles/Prototype.dir/clean:
 .PHONY : CMakeFiles/Prototype.dir/clean
 
 CMakeFiles/Prototype.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Elena\Desktop\design-patterns-for-c\Prototype C:\Users\Elena\Desktop\design-patterns-for-c\Prototype C:\Users\Elena\Desktop\design-patterns-for-c\Prototype\cmake-build-debug C:\Users\Elena\Desktop\design-patterns-for-c\Prototype\cmake-build-debug C:\Users\Elena\Desktop\design-patterns-for-c\Prototype\cmake-build-debug\CMakeFiles\Prototype.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\ClionProjects\design-patterns-for-c\Prototype E:\ClionProjects\design-patterns-for-c\Prototype E:\ClionProjects\design-patterns-for-c\Prototype\cmake-build-debug E:\ClionProjects\design-patterns-for-c\Prototype\cmake-build-debug E:\ClionProjects\design-patterns-for-c\Prototype\cmake-build-debug\CMakeFiles\Prototype.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Prototype.dir/depend
 
