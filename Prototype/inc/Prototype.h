@@ -48,13 +48,16 @@ OrcBeast *newOrcBeast0(char *weapon);
 OrcBeast *newOrcBeast1(OrcBeast* orcBeast);
 void delOrcBeast(OrcBeast *this);
 
+interface HeroFactory HeroFactory;
+interface HeroFactory{
+    Beast *(*createBeast)(HeroFactory *);
+}HeroFactory;
 
-
-
-class HeroFactory HeroFactory;
-class HeroFactory{
+#define implements_HeroFactory
+class HeroFactoryImpl HeroFactoryImpl;
+class HeroFactoryImpl implements_HeroFactory{
     private Beast *beast;
     public Beast *(*createBeast)(HeroFactory *);
-}HeroFactory;
-HeroFactory *newHeroFactory(Beast *beast);
-void delHeroFactory(HeroFactory *factory);
+}HeroFactoryImpl;
+HeroFactoryImpl *newHeroFactoryImpl(Beast *beast);
+void delHeroFactoryImpl(HeroFactoryImpl *factory);

@@ -55,10 +55,25 @@ Sheep cloned = original.clone();
 cloned.setName("Dolly");
 System.out.println(cloned.getName()); // Dolly
 ```
-```plantumlcode
-@startuml
-alice->bob:hello
-@enduml
-```
+## class diagram
+![alt text](prototype.png "prototype design pattern class diagram")
+
+## Applicability
+Use the Prototype pattern when a system should
+be independent of how its product are created,
+composed and represented; and
+
+* When the classes to instantiate are specified at run-time,for example,
+by dynamic loading
+* To avoid building a class hierarchy of factories that parallels that
+class hierachy of products
+* When instances of a class can have one of only a faw different combinations
+state. It may be more convenient to install a corresponding number of prototypes 
+and clone them rather than instantiating the class manully, each time with the 
+appropriate state 
+* When object creation is expensive compared to cloning
+
+
+
 
 

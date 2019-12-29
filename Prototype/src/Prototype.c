@@ -115,14 +115,16 @@ void delOrcBeast(OrcBeast *this){
 
 
 public Beast *createBeast(HeroFactory *this){
-    return this->beast->super.clone(this->beast);
+    HeroFactoryImpl *cthis = (HeroFactoryImpl *)this;
+    return cthis->beast->super.clone(cthis->beast);
 }
-HeroFactory *newHeroFactory(Beast *beast){
-    HeroFactory *this = malloc(sizeof(HeroFactory));
+HeroFactoryImpl *newHeroFactoryImpl(Beast *beast){
+    HeroFactoryImpl *this = malloc(sizeof(HeroFactoryImpl));
     this->beast = beast;
     this->createBeast = createBeast;
+    return this;
 }
-void delHeroFactory(HeroFactory *this){
+void delHeroFactoryImpl(HeroFactoryImpl *this){
     if (this)
         free(this);
 }

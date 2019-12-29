@@ -16,16 +16,15 @@ int main() {
 //    }
 
     Beast *b = (Beast*)newElfBeast0("protecting");
-    HeroFactory *factory = newHeroFactory(b);
+    HeroFactory *factory = (HeroFactory *)newHeroFactoryImpl(b);
     Beast *beast = factory->createBeast(factory);
-
 
     printf("b is equals %d\n",b->equals(b,beast));
     printf("%s\n",beast->toString(beast));
 
 
     Beast *ocb = (Beast*)newOrcBeast0("laser");
-    factory = newHeroFactory(ocb);
+    factory = (HeroFactory*)newHeroFactoryImpl(ocb);
     Beast *ocbeast = factory->createBeast(factory);
     printf("b is equals %d\n",ocb->equals(ocb,beast));
     printf("%s\n",ocbeast->toString(ocbeast));
