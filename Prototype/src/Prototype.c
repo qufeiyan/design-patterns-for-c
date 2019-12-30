@@ -113,15 +113,17 @@ void delOrcBeast(OrcBeast *this){
         free(this);
 }
 
-
+/** HeroFactoryImpl @override ----------------------*/
 public Beast *createBeast(HeroFactory *this){
     HeroFactoryImpl *cthis = (HeroFactoryImpl *)this;
     return cthis->beast->super.clone(cthis->beast);
 }
+
+/** HeroFactoryImpl @constructor && @destructor----------------------------------------------*/
 HeroFactoryImpl *newHeroFactoryImpl(Beast *beast){
     HeroFactoryImpl *this = malloc(sizeof(HeroFactoryImpl));
     this->beast = beast;
-    this->createBeast = createBeast;
+    this->super.createBeast = createBeast;
     return this;
 }
 void delHeroFactoryImpl(HeroFactoryImpl *this){

@@ -56,6 +56,7 @@ interface HeroFactory{
 #define implements_HeroFactory
 class HeroFactoryImpl HeroFactoryImpl;
 class HeroFactoryImpl implements_HeroFactory{
+    HeroFactory super;
     private Beast *beast;
     public Beast *(*createBeast)(HeroFactory *);
 }HeroFactoryImpl;
