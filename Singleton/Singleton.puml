@@ -1,26 +1,34 @@
 @startuml
+package singleton{
+    class App{
+        + main()
+    }
+    abstract class Hero{
+        - gender
+        + superPower
+        + isHuman()
+        - isMarried()
+    }
 
-abstract class AbstractList
-abstract AbstractCollection
-interface List
-interface Collection
+    class Superman{
+        - gender
+        + superPower
+        + fly()
+        + isHuman()
+        - isMarried()
+    }
 
-List <|-- AbstractList
-Collection <|-- AbstractCollection
+    class Batman{
+        - gender
+        + superPower
+        + isHuman()
+        + isMarried()
+        + kill()
+    }
 
-Collection <|- List
-AbstractCollection <|- AbstractList
-AbstractList <|-- ArrayList
-
-class ArrayList {
-Object[] elementData
-size()
+    Hero <|-- Superman
+    Hero <|-- Batman
+    Hero <-- App
+    note left on link #white : use
 }
-
-enum TimeUnit {
-DAYS
-HOURS
-MINUTES
-}
-
 @enduml

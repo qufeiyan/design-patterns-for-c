@@ -8,11 +8,11 @@
 
 E:/ClionProjects/design-patterns-for-c/Prototype/inc/Prototype.h
 
-E:/ClionProjects/design-patterns-for-c/Prototype/main.c
-stdio.h
--
+E:/ClionProjects/design-patterns-for-c/Prototype/src/Prototype.c
 malloc.h
--
-inc/Prototype.h
+E:/ClionProjects/design-patterns-for-c/Prototype/src/malloc.h
+string.h
+E:/ClionProjects/design-patterns-for-c/Prototype/src/string.h
+../inc/Prototype.h
 E:/ClionProjects/design-patterns-for-c/Prototype/inc/Prototype.h
 

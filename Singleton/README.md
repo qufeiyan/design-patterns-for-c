@@ -26,15 +26,34 @@ Wikipedia says
 
 
 
-
-
-
-
 ## Class diagram
 ![alt text](Singleton.png "Singleton pattern class diagram")
 
 ## Applicability
 Use the Singleton pattern when
 
-* There must 
+* There must be exactly one instance of a class, and it must be accessible to clients
+from a well-known access point 
+* When the sole instance should be extensible by subclassing, and Clients should be
+able to use an extended instance without modifying their code
+
+## Typical Use Case
+* The logging class
+* Managing a connection to a database 
+* File manager
+
+## Real world example
+* [java.lang.Runtime#getRuntime()](http://docs.oracle.com/javase/8/docs/api/java/lang/Runtime.html#getRuntime%28%29)
+* [java.awt.Desktop#getDesktop()](http://docs.oracle.com/javase/8/docs/api/java/awt/Desktop.html#getDesktop--)
+* [java.lang.System#getSecurityManager()](http://docs.oracle.com/javase/8/docs/api/java/lang/System.html#getSecurityManager--)
+
+## Consequences
+* Violates Single Responsibility Principle (SRP) by controlling their own creation and lifecycle.
+* Encourages using a global shared instance which prevents an object and resources used by their 
+object from being deallocated.
+* Creates tightly coupled code. The clients of the Singleton become difficult to test.
+* Makes it almost impossible to subclass a Singleton.
+
+## Credits
+*  [Design Patterns: Elements of Reusable Object-Oriented Software](http://www.amazon.com/Dsign-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
 
