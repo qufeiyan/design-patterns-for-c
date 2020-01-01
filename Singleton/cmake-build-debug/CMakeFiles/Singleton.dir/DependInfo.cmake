@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "E:/ClionProjects/design-patterns-for-c/Singleton/main.c" "E:/ClionProjects/design-patterns-for-c/Singleton/cmake-build-debug/CMakeFiles/Singleton.dir/main.c.obj"
-  "E:/ClionProjects/design-patterns-for-c/Singleton/src/Singleton.c" "E:/ClionProjects/design-patterns-for-c/Singleton/cmake-build-debug/CMakeFiles/Singleton.dir/src/Singleton.c.obj"
+  "C:/Users/Elena/Desktop/design-patterns-for-c/Singleton/main.c" "C:/Users/Elena/Desktop/design-patterns-for-c/Singleton/cmake-build-debug/CMakeFiles/Singleton.dir/main.c.obj"
+  "C:/Users/Elena/Desktop/design-patterns-for-c/Singleton/src/Singleton.c" "C:/Users/Elena/Desktop/design-patterns-for-c/Singleton/cmake-build-debug/CMakeFiles/Singleton.dir/src/Singleton.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

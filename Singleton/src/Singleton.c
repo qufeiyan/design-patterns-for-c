@@ -23,8 +23,8 @@ static inline void fly(Superman *this){
 static Superman *newSuperman(void){
     Superman* this = malloc(sizeof(Superman));
     this->super.gender = "male";
-    this->super.isHuman = false;
-    this->super.isMarried = true;
+    this->super.isHuman = isHuman;
+    this->super.isMarried = isMarried;
     this->fly = fly;
     this->super.superPower = "fly";
     return this;
@@ -44,7 +44,7 @@ static inline boolean isMarried1(Hero *this){
 }
 
 /**----------*/
-static inline void kill(Superman *this){
+static inline void kill(Batman *this){
     printf("I always kill\n");
 }
 
@@ -60,15 +60,17 @@ static Batman *newBatman(void){
 }
 
 
-Hero *(*getHero)(char* gender,char* superPower){
+Hero *getHero(char* gender,char* superPower){
     static Hero *hero = NULL;
-    if(NULL != Hero){
+    printf("hero addr is %04x\n",hero);
+    if(NULL != hero){
         return hero;
     }else{
         if (strcmp(gender,"male") == 0 && strcmp(superPower,"kill")){
-            return newSuperman();
+            return hero = (Hero*)newSuperman();
+            printf("call here\n");
         }else{
-            return newBatman();
+            return hero = (Hero*)newBatman();
         }
     }
 }

@@ -6,23 +6,13 @@
 
 #IncludeRegexTransform: 
 
-E:/ClionProjects/design-patterns-for-c/Singleton/inc/Singleton.h
+C:/Users/Elena/Desktop/design-patterns-for-c/Singleton/inc/Singleton.h
 
-E:/ClionProjects/design-patterns-for-c/Singleton/main.c
+C:/Users/Elena/Desktop/design-patterns-for-c/Singleton/main.c
 stdio.h
-E:/ClionProjects/design-patterns-for-c/Singleton/stdio.h
+C:/Users/Elena/Desktop/design-patterns-for-c/Singleton/stdio.h
 stdlib.h
-E:/ClionProjects/design-patterns-for-c/Singleton/stdlib.h
+C:/Users/Elena/Desktop/design-patterns-for-c/Singleton/stdlib.h
 inc/Singleton.h
-E:/ClionProjects/design-patterns-for-c/Singleton/inc/Singleton.h
-
-E:/ClionProjects/design-patterns-for-c/Singleton/src/Singleton.c
-../inc/Singleton.h
-E:/ClionProjects/design-patterns-for-c/Singleton/inc/Singleton.h
-malloc.h
-E:/ClionProjects/design-patterns-for-c/Singleton/src/malloc.h
-stdio.h
-E:/ClionProjects/design-patterns-for-c/Singleton/src/stdio.h
-string.h
-E:/ClionProjects/design-patterns-for-c/Singleton/src/string.h
+C:/Users/Elena/Desktop/design-patterns-for-c/Singleton/inc/Singleton.h
 

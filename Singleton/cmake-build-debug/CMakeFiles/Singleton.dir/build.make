@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = D:\Softwares\JetBrains\CLion\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = D:\Softwares\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\ClionProjects\design-patterns-for-c\Singleton
+CMAKE_SOURCE_DIR = C:\Users\Elena\Desktop\design-patterns-for-c\Singleton
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\ClionProjects\design-patterns-for-c\Singleton\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Elena\Desktop\design-patterns-for-c\Singleton\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Singleton.dir/depend.make
@@ -58,29 +58,29 @@ include CMakeFiles/Singleton.dir/flags.make
 
 CMakeFiles/Singleton.dir/main.c.obj: CMakeFiles/Singleton.dir/flags.make
 CMakeFiles/Singleton.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\ClionProjects\design-patterns-for-c\Singleton\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Singleton.dir/main.c.obj"
-	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Singleton.dir\main.c.obj   -c E:\ClionProjects\design-patterns-for-c\Singleton\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elena\Desktop\design-patterns-for-c\Singleton\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Singleton.dir/main.c.obj"
+	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Singleton.dir\main.c.obj   -c C:\Users\Elena\Desktop\design-patterns-for-c\Singleton\main.c
 
 CMakeFiles/Singleton.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Singleton.dir/main.c.i"
-	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\ClionProjects\design-patterns-for-c\Singleton\main.c > CMakeFiles\Singleton.dir\main.c.i
+	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elena\Desktop\design-patterns-for-c\Singleton\main.c > CMakeFiles\Singleton.dir\main.c.i
 
 CMakeFiles/Singleton.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Singleton.dir/main.c.s"
-	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\ClionProjects\design-patterns-for-c\Singleton\main.c -o CMakeFiles\Singleton.dir\main.c.s
+	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elena\Desktop\design-patterns-for-c\Singleton\main.c -o CMakeFiles\Singleton.dir\main.c.s
 
 CMakeFiles/Singleton.dir/src/Singleton.c.obj: CMakeFiles/Singleton.dir/flags.make
 CMakeFiles/Singleton.dir/src/Singleton.c.obj: ../src/Singleton.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\ClionProjects\design-patterns-for-c\Singleton\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Singleton.dir/src/Singleton.c.obj"
-	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Singleton.dir\src\Singleton.c.obj   -c E:\ClionProjects\design-patterns-for-c\Singleton\src\Singleton.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elena\Desktop\design-patterns-for-c\Singleton\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Singleton.dir/src/Singleton.c.obj"
+	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Singleton.dir\src\Singleton.c.obj   -c C:\Users\Elena\Desktop\design-patterns-for-c\Singleton\src\Singleton.c
 
 CMakeFiles/Singleton.dir/src/Singleton.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Singleton.dir/src/Singleton.c.i"
-	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\ClionProjects\design-patterns-for-c\Singleton\src\Singleton.c > CMakeFiles\Singleton.dir\src\Singleton.c.i
+	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elena\Desktop\design-patterns-for-c\Singleton\src\Singleton.c > CMakeFiles\Singleton.dir\src\Singleton.c.i
 
 CMakeFiles/Singleton.dir/src/Singleton.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Singleton.dir/src/Singleton.c.s"
-	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\ClionProjects\design-patterns-for-c\Singleton\src\Singleton.c -o CMakeFiles\Singleton.dir\src\Singleton.c.s
+	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elena\Desktop\design-patterns-for-c\Singleton\src\Singleton.c -o CMakeFiles\Singleton.dir\src\Singleton.c.s
 
 # Object files for target Singleton
 Singleton_OBJECTS = \
@@ -96,7 +96,7 @@ Singleton.exe: CMakeFiles/Singleton.dir/build.make
 Singleton.exe: CMakeFiles/Singleton.dir/linklibs.rsp
 Singleton.exe: CMakeFiles/Singleton.dir/objects1.rsp
 Singleton.exe: CMakeFiles/Singleton.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\ClionProjects\design-patterns-for-c\Singleton\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Singleton.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Elena\Desktop\design-patterns-for-c\Singleton\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Singleton.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Singleton.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -109,6 +109,6 @@ CMakeFiles/Singleton.dir/clean:
 .PHONY : CMakeFiles/Singleton.dir/clean
 
 CMakeFiles/Singleton.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\ClionProjects\design-patterns-for-c\Singleton E:\ClionProjects\design-patterns-for-c\Singleton E:\ClionProjects\design-patterns-for-c\Singleton\cmake-build-debug E:\ClionProjects\design-patterns-for-c\Singleton\cmake-build-debug E:\ClionProjects\design-patterns-for-c\Singleton\cmake-build-debug\CMakeFiles\Singleton.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Elena\Desktop\design-patterns-for-c\Singleton C:\Users\Elena\Desktop\design-patterns-for-c\Singleton C:\Users\Elena\Desktop\design-patterns-for-c\Singleton\cmake-build-debug C:\Users\Elena\Desktop\design-patterns-for-c\Singleton\cmake-build-debug C:\Users\Elena\Desktop\design-patterns-for-c\Singleton\cmake-build-debug\CMakeFiles\Singleton.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Singleton.dir/depend
 

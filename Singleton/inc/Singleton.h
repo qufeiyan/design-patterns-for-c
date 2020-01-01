@@ -25,14 +25,16 @@ abstract class Hero{
 }Hero;
 
 #define extends_Hero
+class Superman Superman;
 class Superman extends_Hero{
     Hero super;
-    void (*fly)(void);
+    void (*fly)(Superman *);
 }Superman;
 
+class Batman Batman;
 class Batman extends_Hero{
     Hero super;
-    void (*kill)(void);
+    void (*kill)(Batman *);
 }Batman;
 
-Hero *(*getHero)(char* gender,char* superPower);
+Hero *getHero(char* gender,char* superPower);
