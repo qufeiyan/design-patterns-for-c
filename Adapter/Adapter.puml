@@ -1,0 +1,35 @@
+@startuml
+package adapter{
+    class App{
+        + main()
+    }
+    class Captain{
+        - rowingBoat : RowingBoat
+        ~ row()
+        --
+        + newCaptain()
+        + delCaptain()
+    }
+    ~class FishingBoat{
+        ~ sail()
+        --
+        + newFishingBoat()
+        + delFishingBoat()
+    }
+    interface RowingBoat{
+        + row() {abstract}
+    }
+    class FishingBoatAdapter{
+        - boat : FishingBoat
+        --
+        "constructor && destructor"
+        + newFishingBoatAdapter();
+        + delFishingBoatAdapter()
+    }
+
+    App --> "use-a" Captain
+    Captain --> "-rowingBoat" RowingBoat
+    FishingBoatAdapter ..|> RowingBoat
+    FishingBoat "-boat" <-- FishingBoatAdapter
+}
+@enduml

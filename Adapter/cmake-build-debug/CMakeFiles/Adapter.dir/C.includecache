@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Elena/Desktop/design-patterns-for-c/Adapter/inc/Adapter.h
+
+C:/Users/Elena/Desktop/design-patterns-for-c/Adapter/main.c
+stdio.h
+-
+inc/Adapter.h
+C:/Users/Elena/Desktop/design-patterns-for-c/Adapter/inc/Adapter.h
+
+C:/Users/Elena/Desktop/design-patterns-for-c/Adapter/src/Adapter.c
+stdlib.h
+-
+../inc/Adapter.h
+C:/Users/Elena/Desktop/design-patterns-for-c/Adapter/inc/Adapter.h
+
