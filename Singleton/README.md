@@ -22,7 +22,22 @@ Wikipedia says
 > one object is needs to coordinate actions across the system.
 
 **Programmatic Example**
-
+```c
+Hero *getHero(char* gender,char* superPower){
+    static Hero *hero = NULL;
+//    printf("hero addr is %04x\n",hero);
+    if(NULL != hero){
+        return hero;
+    }else{
+        if (strcmp(gender,"male") == 0 && strcmp(superPower,"kill")){
+            return hero = (Hero*)newSuperman();
+//            printf("call here\n");
+        }else{
+            return hero = (Hero*)newBatman();
+        }
+    }
+}
+```
 
 
 
