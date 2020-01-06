@@ -1,3 +1,0 @@
-C:/Users/Elena/Desktop/design-patterns-for-c/Singleton/cmake-build-debug/CMakeFiles/Singleton.dir
-C:/Users/Elena/Desktop/design-patterns-for-c/Singleton/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Elena/Desktop/design-patterns-for-c/Singleton/cmake-build-debug/CMakeFiles/rebuild_cache.dir
