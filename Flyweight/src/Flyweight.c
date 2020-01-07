@@ -8,7 +8,7 @@
  */
 /** @Override -----------*/
 public static void drink(Potion *self){
-    printf("You feel healed. (Potion = %d)",self);
+    printf("You feel healed. (Potion = %d)\n",self);
 }
 /** @Constructor && @Destructor -----------------*/
 public HealingPotion *newHealingPotion(){
@@ -27,7 +27,7 @@ public void delHealingPotion(HealingPotion *self){
  */
 /** @Override ------------*/
 public static void drink1(Potion *self){
-    printf("You feel blessed. (Potion = %d)",self);
+    printf("You feel blessed. (Potion = %d)\n",self);
 }
 /** @Constructor && @Destructor -----------------*/
 public HolyWaterPotion *newHolyWaterPotion(){
@@ -44,7 +44,7 @@ public void delHolyWaterPotion(HolyWaterPotion *self){
  */
 /** @Override ------------*/
 public static void drink2(Potion *self){
-    printf("You become invisible. (Potion = %d)",self);
+    printf("You become invisible. (Potion = %d)\n",self);
 }
 /** @Constructor && @Destructor -----------------*/
 public InvisibilityPotion *newInvisibilityPotion(){
@@ -63,7 +63,7 @@ public void delInvisibilityPotion(InvisibilityPotion *self){
  */
 /** @Override ------------*/
 public static void drink3(Potion *self){
-    printf("Urgh! This is poisonous. (Potion = %d)",self);
+    printf("Urgh! This is poisonous. (Potion = %d)\n",self);
 }
 /** @Constructor && @Destructor -----------------*/
 public PoisonPotion *newPoisonPotion(){
@@ -81,8 +81,8 @@ public void delPoisonPotion(PoisonPotion *self){
  * StrengthPotion.
  */
 /** @Override -------------*/
-public static void drink4(StrengthPotion *self) {
-    printf("You feel strong. (Potion= %d)", self);
+public static void drink4(Potion *self) {
+    printf("You feel strong. (Potion= %d)\n", self);
 }
 public StrengthPotion *newStrengthPotion(){\
     StrengthPotion* self = malloc(sizeof(StrengthPotion));
@@ -155,12 +155,13 @@ public static void delPotion(PotionType type,Potion *potion){
 public PotionFactory *newPotionFactory(void){
     PotionFactory *self = malloc(sizeof(PotionFactory));
     self->potions = createHashMap();
+    self->createPotion = createPotion;
     return self;
 }
 public void delPotionFactory(PotionFactory *self){
     if (self != NULL){
         if (self->potions != NULL){
-            self->potions->forEach(self->potions,delPotion);
+         //   self->potions->forEach(self->potions,delPotion);
             freeHashMap(self->potions);
         }
         free(self);
@@ -187,17 +188,54 @@ public static void enumerate(AlchemistShop *self){
     printf("Enumerating bottom shelf potions\n");
     self->bottomShelf->forEach(self->bottomShelf,Potion_drink);
 }
+public const ArrayList *getTopShelf(AlchemistShop *self){
+    return self->topShelf->clone(self->topShelf);
+}
+
+public const ArrayList *getBottomShelf(AlchemistShop *self){
+    return self->bottomShelf->clone(self->bottomShelf);
+}
 
 AlchemistShop *newAlchemistShop(void){
     AlchemistShop *self = malloc(sizeof(AlchemistShop));
     self->topShelf = createArrayList(10);
     self->bottomShelf = createArrayList(10);
     self->enumerate = enumerate;
+    self->getBottomShelf = getBottomShelf;
+    self->getTopShelf = getTopShelf;
+    PotionFactory *factory = newPotionFactory();
+    self->topShelf->append(self->topShelf,
+            factory->createPotion(factory,INVISIBILITY));
+    self->topShelf->append(self->topShelf,
+            factory->createPotion(factory,INVISIBILITY));
+    self->topShelf->append(self->topShelf,
+            factory->createPotion(factory,STRENGTH));
+    self->topShelf->append(self->topShelf,
+            factory->createPotion(factory,HEALING));
+    self->topShelf->append(self->topShelf,
+            factory->createPotion(factory,INVISIBILITY));
+    self->topShelf->append(self->topShelf,
+            factory->createPotion(factory,STRENGTH));
+    self->topShelf->append(self->topShelf,
+            factory->createPotion(factory,HEALING));
+    self->topShelf->append(self->topShelf,
+            factory->createPotion(factory,HEALING));
 
+    self->bottomShelf->append(self->bottomShelf,
+            factory->createPotion(factory,POISON));
+    self->bottomShelf->append(self->bottomShelf,
+            factory->createPotion(factory,POISON));
+    self->bottomShelf->append(self->bottomShelf,
+            factory->createPotion(factory,POISON));
+    self->bottomShelf->append(self->bottomShelf,
+            factory->createPotion(factory,HOLY_WATER));
+    self->bottomShelf->append(self->bottomShelf,
+            factory->createPotion(factory,HOLY_WATER));
 
+    delPotionFactory(factory);
     return self;
 }
-void delALchemistShop(AlchemistShop *self){
+void delAlchemistShop(AlchemistShop *self){
     if (self != NULL){
         self->topShelf->forEach(self->topShelf,delPotion1);
         self->bottomShelf->forEach(self->bottomShelf,delPotion1);

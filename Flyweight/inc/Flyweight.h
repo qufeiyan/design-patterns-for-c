@@ -78,9 +78,10 @@ void delStrengthPotion(StrengthPotion*);
  * sharing object instances. It holds a map of potion instances and new potions
  * are created only when none of the type already exists.
  */
+class PotionFactory PotionFactory;
 public class PotionFactory{
     private HashMap *potions;
-    Potion (*createPotion)(PotionType type);
+    Potion *(*createPotion)(PotionFactory *self,PotionType type);
 }PotionFactory;
 public PotionFactory *newPotionFactory(void);
 public void delPotionFactory(PotionFactory *self);
@@ -90,12 +91,13 @@ public void delPotionFactory(PotionFactory *self);
  * AlchemistShop holds potions on its shelves.
  * It uses PotionFactory to provide the potions.
  */
+class AlchemistShop AlchemistShop;
 public class AlchemistShop{
     private ArrayList *topShelf;
     private ArrayList *bottomShelf;
-    public ArrayList *(*getTopShelf)();
-    public ArrayList *(*getBottomShelf)();
+    public const ArrayList *(*getTopShelf)(AlchemistShop *self);
+    public const ArrayList *(*getBottomShelf)(AlchemistShop *self);
     public void (*enumerate)();
 }AlchemistShop;
 AlchemistShop *newAlchemistShop(void);
-void delALchemistShop(AlchemistShop *);
+void delAlchemistShop(AlchemistShop *);

@@ -4,8 +4,9 @@
 int main() {
     printf("Hello, World!\n");
 
+    AlchemistShop *alchemistShop = newAlchemistShop();
+    alchemistShop->enumerate(alchemistShop);
 
-
-
+    delAlchemistShop(alchemistShop);
     return 0;
 }

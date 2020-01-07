@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "E:/ClionProjects/design-patterns-for-c/Composite/main.c" "E:/ClionProjects/design-patterns-for-c/Composite/cmake-build-debug/CMakeFiles/Composite.dir/main.c.obj"
-  "E:/ClionProjects/design-patterns-for-c/Composite/src/ArrayList.c" "E:/ClionProjects/design-patterns-for-c/Composite/cmake-build-debug/CMakeFiles/Composite.dir/src/ArrayList.c.obj"
-  "E:/ClionProjects/design-patterns-for-c/Composite/src/Composite.c" "E:/ClionProjects/design-patterns-for-c/Composite/cmake-build-debug/CMakeFiles/Composite.dir/src/Composite.c.obj"
+  "C:/Users/Elena/Desktop/design-patterns-for-c/Composite/main.c" "C:/Users/Elena/Desktop/design-patterns-for-c/Composite/cmake-build-debug/CMakeFiles/Composite.dir/main.c.obj"
+  "C:/Users/Elena/Desktop/design-patterns-for-c/Composite/src/ArrayList.c" "C:/Users/Elena/Desktop/design-patterns-for-c/Composite/cmake-build-debug/CMakeFiles/Composite.dir/src/ArrayList.c.obj"
+  "C:/Users/Elena/Desktop/design-patterns-for-c/Composite/src/Composite.c" "C:/Users/Elena/Desktop/design-patterns-for-c/Composite/cmake-build-debug/CMakeFiles/Composite.dir/src/Composite.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

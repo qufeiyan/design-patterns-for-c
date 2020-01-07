@@ -160,7 +160,7 @@ static inline boolean put(HashMap *obj,keyType key,valueType value){
 static inline valueType get(HashMap *obj,keyType key){
     int hash = obj->hashCode(obj, key);
     int index = obj->indexFor(obj,hash);
-    printf("key is %s,index is %d\n",key,index);
+    printf("key is %d,index is %d\n",key,index);
 	Element *pElement = &obj->pList[index];
 	while (pElement != NULL) {
 		if (obj->equal(pElement->key, key)) {

@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = D:\Softwares\JetBrains\CLion\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = D:\Softwares\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\ClionProjects\design-patterns-for-c\Flyweight
+CMAKE_SOURCE_DIR = C:\Users\Elena\Desktop\design-patterns-for-c\Flyweight
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\ClionProjects\design-patterns-for-c\Flyweight\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Elena\Desktop\design-patterns-for-c\Flyweight\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Flyweight.dir/depend.make
@@ -58,55 +58,55 @@ include CMakeFiles/Flyweight.dir/flags.make
 
 CMakeFiles/Flyweight.dir/main.c.obj: CMakeFiles/Flyweight.dir/flags.make
 CMakeFiles/Flyweight.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\ClionProjects\design-patterns-for-c\Flyweight\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Flyweight.dir/main.c.obj"
-	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Flyweight.dir\main.c.obj   -c E:\ClionProjects\design-patterns-for-c\Flyweight\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elena\Desktop\design-patterns-for-c\Flyweight\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Flyweight.dir/main.c.obj"
+	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Flyweight.dir\main.c.obj   -c C:\Users\Elena\Desktop\design-patterns-for-c\Flyweight\main.c
 
 CMakeFiles/Flyweight.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Flyweight.dir/main.c.i"
-	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\ClionProjects\design-patterns-for-c\Flyweight\main.c > CMakeFiles\Flyweight.dir\main.c.i
+	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elena\Desktop\design-patterns-for-c\Flyweight\main.c > CMakeFiles\Flyweight.dir\main.c.i
 
 CMakeFiles/Flyweight.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Flyweight.dir/main.c.s"
-	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\ClionProjects\design-patterns-for-c\Flyweight\main.c -o CMakeFiles\Flyweight.dir\main.c.s
+	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elena\Desktop\design-patterns-for-c\Flyweight\main.c -o CMakeFiles\Flyweight.dir\main.c.s
 
 CMakeFiles/Flyweight.dir/src/Flyweight.c.obj: CMakeFiles/Flyweight.dir/flags.make
 CMakeFiles/Flyweight.dir/src/Flyweight.c.obj: ../src/Flyweight.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\ClionProjects\design-patterns-for-c\Flyweight\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Flyweight.dir/src/Flyweight.c.obj"
-	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Flyweight.dir\src\Flyweight.c.obj   -c E:\ClionProjects\design-patterns-for-c\Flyweight\src\Flyweight.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elena\Desktop\design-patterns-for-c\Flyweight\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Flyweight.dir/src/Flyweight.c.obj"
+	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Flyweight.dir\src\Flyweight.c.obj   -c C:\Users\Elena\Desktop\design-patterns-for-c\Flyweight\src\Flyweight.c
 
 CMakeFiles/Flyweight.dir/src/Flyweight.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Flyweight.dir/src/Flyweight.c.i"
-	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\ClionProjects\design-patterns-for-c\Flyweight\src\Flyweight.c > CMakeFiles\Flyweight.dir\src\Flyweight.c.i
+	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elena\Desktop\design-patterns-for-c\Flyweight\src\Flyweight.c > CMakeFiles\Flyweight.dir\src\Flyweight.c.i
 
 CMakeFiles/Flyweight.dir/src/Flyweight.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Flyweight.dir/src/Flyweight.c.s"
-	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\ClionProjects\design-patterns-for-c\Flyweight\src\Flyweight.c -o CMakeFiles\Flyweight.dir\src\Flyweight.c.s
+	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elena\Desktop\design-patterns-for-c\Flyweight\src\Flyweight.c -o CMakeFiles\Flyweight.dir\src\Flyweight.c.s
 
 CMakeFiles/Flyweight.dir/List/src/ArrayList.c.obj: CMakeFiles/Flyweight.dir/flags.make
 CMakeFiles/Flyweight.dir/List/src/ArrayList.c.obj: ../List/src/ArrayList.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\ClionProjects\design-patterns-for-c\Flyweight\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Flyweight.dir/List/src/ArrayList.c.obj"
-	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Flyweight.dir\List\src\ArrayList.c.obj   -c E:\ClionProjects\design-patterns-for-c\Flyweight\List\src\ArrayList.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elena\Desktop\design-patterns-for-c\Flyweight\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Flyweight.dir/List/src/ArrayList.c.obj"
+	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Flyweight.dir\List\src\ArrayList.c.obj   -c C:\Users\Elena\Desktop\design-patterns-for-c\Flyweight\List\src\ArrayList.c
 
 CMakeFiles/Flyweight.dir/List/src/ArrayList.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Flyweight.dir/List/src/ArrayList.c.i"
-	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\ClionProjects\design-patterns-for-c\Flyweight\List\src\ArrayList.c > CMakeFiles\Flyweight.dir\List\src\ArrayList.c.i
+	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elena\Desktop\design-patterns-for-c\Flyweight\List\src\ArrayList.c > CMakeFiles\Flyweight.dir\List\src\ArrayList.c.i
 
 CMakeFiles/Flyweight.dir/List/src/ArrayList.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Flyweight.dir/List/src/ArrayList.c.s"
-	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\ClionProjects\design-patterns-for-c\Flyweight\List\src\ArrayList.c -o CMakeFiles\Flyweight.dir\List\src\ArrayList.c.s
+	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elena\Desktop\design-patterns-for-c\Flyweight\List\src\ArrayList.c -o CMakeFiles\Flyweight.dir\List\src\ArrayList.c.s
 
 CMakeFiles/Flyweight.dir/Map/src/HashMap.c.obj: CMakeFiles/Flyweight.dir/flags.make
 CMakeFiles/Flyweight.dir/Map/src/HashMap.c.obj: ../Map/src/HashMap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\ClionProjects\design-patterns-for-c\Flyweight\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Flyweight.dir/Map/src/HashMap.c.obj"
-	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Flyweight.dir\Map\src\HashMap.c.obj   -c E:\ClionProjects\design-patterns-for-c\Flyweight\Map\src\HashMap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elena\Desktop\design-patterns-for-c\Flyweight\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Flyweight.dir/Map/src/HashMap.c.obj"
+	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Flyweight.dir\Map\src\HashMap.c.obj   -c C:\Users\Elena\Desktop\design-patterns-for-c\Flyweight\Map\src\HashMap.c
 
 CMakeFiles/Flyweight.dir/Map/src/HashMap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Flyweight.dir/Map/src/HashMap.c.i"
-	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\ClionProjects\design-patterns-for-c\Flyweight\Map\src\HashMap.c > CMakeFiles\Flyweight.dir\Map\src\HashMap.c.i
+	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elena\Desktop\design-patterns-for-c\Flyweight\Map\src\HashMap.c > CMakeFiles\Flyweight.dir\Map\src\HashMap.c.i
 
 CMakeFiles/Flyweight.dir/Map/src/HashMap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Flyweight.dir/Map/src/HashMap.c.s"
-	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\ClionProjects\design-patterns-for-c\Flyweight\Map\src\HashMap.c -o CMakeFiles\Flyweight.dir\Map\src\HashMap.c.s
+	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elena\Desktop\design-patterns-for-c\Flyweight\Map\src\HashMap.c -o CMakeFiles\Flyweight.dir\Map\src\HashMap.c.s
 
 # Object files for target Flyweight
 Flyweight_OBJECTS = \
@@ -126,7 +126,7 @@ Flyweight.exe: CMakeFiles/Flyweight.dir/build.make
 Flyweight.exe: CMakeFiles/Flyweight.dir/linklibs.rsp
 Flyweight.exe: CMakeFiles/Flyweight.dir/objects1.rsp
 Flyweight.exe: CMakeFiles/Flyweight.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\ClionProjects\design-patterns-for-c\Flyweight\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable Flyweight.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Elena\Desktop\design-patterns-for-c\Flyweight\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable Flyweight.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Flyweight.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -139,6 +139,6 @@ CMakeFiles/Flyweight.dir/clean:
 .PHONY : CMakeFiles/Flyweight.dir/clean
 
 CMakeFiles/Flyweight.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\ClionProjects\design-patterns-for-c\Flyweight E:\ClionProjects\design-patterns-for-c\Flyweight E:\ClionProjects\design-patterns-for-c\Flyweight\cmake-build-debug E:\ClionProjects\design-patterns-for-c\Flyweight\cmake-build-debug E:\ClionProjects\design-patterns-for-c\Flyweight\cmake-build-debug\CMakeFiles\Flyweight.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Elena\Desktop\design-patterns-for-c\Flyweight C:\Users\Elena\Desktop\design-patterns-for-c\Flyweight C:\Users\Elena\Desktop\design-patterns-for-c\Flyweight\cmake-build-debug C:\Users\Elena\Desktop\design-patterns-for-c\Flyweight\cmake-build-debug C:\Users\Elena\Desktop\design-patterns-for-c\Flyweight\cmake-build-debug\CMakeFiles\Flyweight.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Flyweight.dir/depend
 

@@ -1,4 +1,4 @@
-# Install script for directory: E:/ClionProjects/design-patterns-for-c/Flyweight
+# Install script for directory: C:/Users/Elena/Desktop/design-patterns-for-c/Flyweight
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/ClionProjects/design-patterns-for-c/Flyweight/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Elena/Desktop/design-patterns-for-c/Flyweight/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
