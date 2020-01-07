@@ -1,10 +1,10 @@
 /**
- * 
+ *
  *  @file    ArrayList.h
  *  @author  qufeiyan
  *  @brief   implemention of ArrayList.
- *  @date    2019/12/4   
- * 
+ *  @date    2019/12/4
+ *
  */
 /* Define to prevent recursive inclusion ---------------------------------------------------*/
 #ifndef __ARRAYLIST_H
@@ -36,7 +36,8 @@ typedef int dataType;
 typedef void* dataType;
 #endif
 
-typedef enum bool {
+#define BOOLEAN
+typedef enum boolean {
     false = 0,
     true
 } boolean;
@@ -73,6 +74,8 @@ typedef struct ArrayList {
     dataType *(*grow)(struct ArrayList *obj, int minCapacity);
 
     void (*trimToSize)(struct ArrayList *obj);
+
+    void (*forEach)(struct ArrayList *obj,void(*)());
 
     struct ArrayList *(*clone)(struct ArrayList *obj);
 } ArrayList;

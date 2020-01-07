@@ -1,0 +1,68 @@
+@startuml
+package flyweight{
+
+class App{
+    + main()
+}
+
+interface Potion{
+    + drink() {abstract}
+}
+enum PotionType{
+    + HEALING {static}
+    + INVISIBILITY {static}
+    + STRENGTH {static}
+    + HOLY_WATER {static}
+    + POISON {static}
+}
+class HealingPotion{
+    + super :: drink()
+    ===
+    newHealingPotion()
+}
+class HolyWaterPotion{
+    + super :: drink()
+    ===
+    newHolyWaterPotion()
+}
+class InvisibilityPotion{
+    + super :: drink()
+    ===
+    newInvisibilityPotion()
+}
+class PoisonPotion{
+    + super :: drink()
+    ===
+    newPoisonPotion()
+}
+class StrengthPotion{
+    + super :: drink()
+    ===
+    + newStrengthPotion()
+}
+class PotionFactory{
+    - potions : Map<PotionType,Potion>
+    ~ createPotion(type : PotionType) : Potion
+    ===
+    + newPotionFactory()
+}
+class AlchemistShop{
+    - bottomShelf : List<Potion>
+    - topShelf : List<Potion>
+    + enumerate()
+    + getBottomShelf() : List<Potion>
+    + getTopShelf() : List<Potion>
+    ===
+    + newAlchemistShp()
+}
+App ..> AlchemistShop
+PotionFactory ..> PotionType
+AlchemistShop --> "-topShelf" Potion
+PotionFactory <.. AlchemistShop
+Potion <|.. HealingPotion
+Potion <|.. HolyWaterPotion
+Potion <|.. InvisibilityPotion
+Potion <|.. PoisonPotion
+Potion <|.. StrengthPotion
+}
+@enduml

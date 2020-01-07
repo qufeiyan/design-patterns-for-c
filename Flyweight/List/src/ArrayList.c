@@ -1,10 +1,10 @@
-/** 
- * 
+/**
+ *
  *  @file    ArrayList.c
  *  @author  qufeiyan
  *  @date    2019/12/4
- *  @brief   
- * 
+ *  @brief
+ *
  */
 /* Includes --------------------------------------------------------------------------------*/
 #include "../inc/ArrayList.h"
@@ -13,7 +13,7 @@
 #include "string.h"
 #include "math.h"
 
-/** @addtogroup 
+/** @addtogroup
  *  @{
  */
 
@@ -270,6 +270,22 @@ static inline ArrayList *clone(ArrayList *obj) {
     copy->size = obj->size;
     return copy;
 }
+#if Use_Array_Ref
+static inline void forEach(ArrayList *obj,void(*action)()){
+    if (action == NULL) return;
+    for (int i = 0; i < obj->size; ++i) {
+        action(obj->get(obj,i));
+    }
+}
+#else
+static inline void forEach(ArrayList *obj,void(*action)()){
+    if (action == NULL) return;
+    for (int i = 0; i < obj->size; ++i) {
+        action(obj->get(obj,i));
+    }
+}
+#endif
+
 /*****************************Constructor and Destructor *********************************/
 /**
  * Constructs an empty list with the specified initial capacity.
@@ -293,6 +309,8 @@ ArrayList *createArrayList(int capacity) {
     arrayList->removeAll = removeAll;
     arrayList->grow = grow;
     arrayList->toArray = toArray;
+    arrayList->forEach = forEach;
+
     if (capacity < DEFAULT_CAPACITY) capacity = DEFAULT_CAPACITY;
     arrayList->array = malloc(sizeof(dataType) * capacity);
     if (arrayList->array == NULL) return NULL;

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/ClionProjects/design-patterns-for-c/Flyweight/Map/inc/HashMap.h
+
+E:/ClionProjects/design-patterns-for-c/Flyweight/Map/src/HashMap.c
+../inc/HashMap.h
+E:/ClionProjects/design-patterns-for-c/Flyweight/Map/inc/HashMap.h
+string.h
+E:/ClionProjects/design-patterns-for-c/Flyweight/Map/src/string.h
+stdlib.h
+E:/ClionProjects/design-patterns-for-c/Flyweight/Map/src/stdlib.h
+stdio.h
+E:/ClionProjects/design-patterns-for-c/Flyweight/Map/src/stdio.h
+
