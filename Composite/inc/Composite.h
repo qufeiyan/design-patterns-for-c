@@ -2,8 +2,7 @@
 #define __COMPOSITE_H
 #endif
 
-#include "ArrayList\inc\ArrayList.h"
-
+#include "ArrayList.h"
 
 #ifndef OBJECT_ORIENTED_SUPPORT
 #define class typedef struct
@@ -14,18 +13,19 @@
 
 #endif
 
+#ifdef boolean
 typedef enum boolean{
     false,
     true
 }boolean;
-
+#endif
 /**
  * Composite interface.
  */
-class LetterComposite LetterComposite
+class LetterComposite LetterComposite;
 abstract class LetterComposite{
     private ArrayList *children;
-    void (*add)(LetterComposite *letter);
+    void (*add)(LetterComposite *self,LetterComposite *letter);
     int (*count)();
     void (*printThisBefore)();
     void (*printThisAfter)();
@@ -39,7 +39,7 @@ abstract class LetterComposite{
  * Letter
  */
 #define extends_LetterComposite
-public class Letter extends_LetterComposite(){
+public class Letter extends_LetterComposite{
     LetterComposite super;
     char character;
 }Letter;
@@ -61,11 +61,16 @@ void delMessenger(Messenger *self);
  */
 class Sentence extends_LetterComposite{
     LetterComposite super;
-}LetterComposite;
-Sentence *newSentence(void);
+}Sentence;
+Sentence *newSentence(ArrayList *words);
 void delSentence(Sentence *self);
 
-clss Word extends_LetterComposite{
+/**
+ * Word
+ */
+class Word extends_LetterComposite{
     LetterComposite super;
 }Word;
-Word * newWord();
+//Word * newWord(ArrayList *letters);
+Word * newWord1(char letters[],int size);
+void delWord(Word *self);

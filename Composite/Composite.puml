@@ -1,0 +1,50 @@
+@startuml
+package composite{
+    class App{
+        + main(void)
+    }
+    class Letter{
+        + super : LetterComposite
+        ---
+        - character : char
+        # printThisBefore()
+        --
+        + newLetter()
+        + delLetter()
+    }
+    abstract class LetterComposite{
+        - children : ArrayList<LetterComposite>
+        + add(letter : LetterComposite)
+        + count() : int
+        + print()
+        # printThisAfter()
+        # printThisBefore()
+        ---
+        + initLetterComposite()
+    }
+    class Messenger {
+        ~ messageFromElves() : LetterComposite
+        ~ messageFromOrcs() : LetterComposite
+        ---
+        + newMessenger()
+        + delMessenger()
+    }
+    class Sentence{
+        + super : LetterComposite
+        ---
+        # printThisAfter()
+    }
+    class Word{
+        + super : LetterComposite
+        ---
+        # printThisBefore()
+        ---
+        + Word(letters : char[])
+    }
+    App --> "use-a" Messenger
+    LetterComposite -->  "-children" LetterComposite
+    Letter --|> LetterComposite
+    Sentence --|> LetterComposite
+    Word --|> LetterComposite
+}
+@enduml
