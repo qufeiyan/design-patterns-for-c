@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = D:\Softwares\JetBrains\CLion\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = D:\Softwares\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\ClionProjects\design-patterns-for-c\ChainOfResponsibility
+CMAKE_SOURCE_DIR = C:\Users\Elena\Desktop\design-patterns-for-c\ChainOfResponsibility
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\ClionProjects\design-patterns-for-c\ChainOfResponsibility\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Elena\Desktop\design-patterns-for-c\ChainOfResponsibility\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ChainOfResponsibility.dir/depend.make
@@ -58,29 +58,29 @@ include CMakeFiles/ChainOfResponsibility.dir/flags.make
 
 CMakeFiles/ChainOfResponsibility.dir/main.c.obj: CMakeFiles/ChainOfResponsibility.dir/flags.make
 CMakeFiles/ChainOfResponsibility.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\ClionProjects\design-patterns-for-c\ChainOfResponsibility\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ChainOfResponsibility.dir/main.c.obj"
-	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ChainOfResponsibility.dir\main.c.obj   -c E:\ClionProjects\design-patterns-for-c\ChainOfResponsibility\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elena\Desktop\design-patterns-for-c\ChainOfResponsibility\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ChainOfResponsibility.dir/main.c.obj"
+	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ChainOfResponsibility.dir\main.c.obj   -c C:\Users\Elena\Desktop\design-patterns-for-c\ChainOfResponsibility\main.c
 
 CMakeFiles/ChainOfResponsibility.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ChainOfResponsibility.dir/main.c.i"
-	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\ClionProjects\design-patterns-for-c\ChainOfResponsibility\main.c > CMakeFiles\ChainOfResponsibility.dir\main.c.i
+	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elena\Desktop\design-patterns-for-c\ChainOfResponsibility\main.c > CMakeFiles\ChainOfResponsibility.dir\main.c.i
 
 CMakeFiles/ChainOfResponsibility.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ChainOfResponsibility.dir/main.c.s"
-	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\ClionProjects\design-patterns-for-c\ChainOfResponsibility\main.c -o CMakeFiles\ChainOfResponsibility.dir\main.c.s
+	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elena\Desktop\design-patterns-for-c\ChainOfResponsibility\main.c -o CMakeFiles\ChainOfResponsibility.dir\main.c.s
 
 CMakeFiles/ChainOfResponsibility.dir/src/Chain.c.obj: CMakeFiles/ChainOfResponsibility.dir/flags.make
 CMakeFiles/ChainOfResponsibility.dir/src/Chain.c.obj: ../src/Chain.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\ClionProjects\design-patterns-for-c\ChainOfResponsibility\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ChainOfResponsibility.dir/src/Chain.c.obj"
-	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ChainOfResponsibility.dir\src\Chain.c.obj   -c E:\ClionProjects\design-patterns-for-c\ChainOfResponsibility\src\Chain.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elena\Desktop\design-patterns-for-c\ChainOfResponsibility\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ChainOfResponsibility.dir/src/Chain.c.obj"
+	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ChainOfResponsibility.dir\src\Chain.c.obj   -c C:\Users\Elena\Desktop\design-patterns-for-c\ChainOfResponsibility\src\Chain.c
 
 CMakeFiles/ChainOfResponsibility.dir/src/Chain.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ChainOfResponsibility.dir/src/Chain.c.i"
-	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\ClionProjects\design-patterns-for-c\ChainOfResponsibility\src\Chain.c > CMakeFiles\ChainOfResponsibility.dir\src\Chain.c.i
+	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elena\Desktop\design-patterns-for-c\ChainOfResponsibility\src\Chain.c > CMakeFiles\ChainOfResponsibility.dir\src\Chain.c.i
 
 CMakeFiles/ChainOfResponsibility.dir/src/Chain.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ChainOfResponsibility.dir/src/Chain.c.s"
-	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\ClionProjects\design-patterns-for-c\ChainOfResponsibility\src\Chain.c -o CMakeFiles\ChainOfResponsibility.dir\src\Chain.c.s
+	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elena\Desktop\design-patterns-for-c\ChainOfResponsibility\src\Chain.c -o CMakeFiles\ChainOfResponsibility.dir\src\Chain.c.s
 
 # Object files for target ChainOfResponsibility
 ChainOfResponsibility_OBJECTS = \
@@ -96,7 +96,7 @@ ChainOfResponsibility.exe: CMakeFiles/ChainOfResponsibility.dir/build.make
 ChainOfResponsibility.exe: CMakeFiles/ChainOfResponsibility.dir/linklibs.rsp
 ChainOfResponsibility.exe: CMakeFiles/ChainOfResponsibility.dir/objects1.rsp
 ChainOfResponsibility.exe: CMakeFiles/ChainOfResponsibility.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\ClionProjects\design-patterns-for-c\ChainOfResponsibility\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable ChainOfResponsibility.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Elena\Desktop\design-patterns-for-c\ChainOfResponsibility\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable ChainOfResponsibility.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ChainOfResponsibility.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -109,6 +109,6 @@ CMakeFiles/ChainOfResponsibility.dir/clean:
 .PHONY : CMakeFiles/ChainOfResponsibility.dir/clean
 
 CMakeFiles/ChainOfResponsibility.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\ClionProjects\design-patterns-for-c\ChainOfResponsibility E:\ClionProjects\design-patterns-for-c\ChainOfResponsibility E:\ClionProjects\design-patterns-for-c\ChainOfResponsibility\cmake-build-debug E:\ClionProjects\design-patterns-for-c\ChainOfResponsibility\cmake-build-debug E:\ClionProjects\design-patterns-for-c\ChainOfResponsibility\cmake-build-debug\CMakeFiles\ChainOfResponsibility.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Elena\Desktop\design-patterns-for-c\ChainOfResponsibility C:\Users\Elena\Desktop\design-patterns-for-c\ChainOfResponsibility C:\Users\Elena\Desktop\design-patterns-for-c\ChainOfResponsibility\cmake-build-debug C:\Users\Elena\Desktop\design-patterns-for-c\ChainOfResponsibility\cmake-build-debug C:\Users\Elena\Desktop\design-patterns-for-c\ChainOfResponsibility\cmake-build-debug\CMakeFiles\ChainOfResponsibility.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ChainOfResponsibility.dir/depend
 
