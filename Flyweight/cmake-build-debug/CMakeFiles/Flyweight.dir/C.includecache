@@ -6,21 +6,21 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Elena/Desktop/design-patterns-for-c/Flyweight/List/inc/ArrayList.h
+E:/ClionProjects/design-patterns-for-c/Flyweight/List/inc/ArrayList.h
 
-C:/Users/Elena/Desktop/design-patterns-for-c/Flyweight/Map/inc/HashMap.h
+E:/ClionProjects/design-patterns-for-c/Flyweight/Map/inc/HashMap.h
 
-C:/Users/Elena/Desktop/design-patterns-for-c/Flyweight/inc/Flyweight.h
+E:/ClionProjects/design-patterns-for-c/Flyweight/inc/Flyweight.h
 ../List/inc/ArrayList.h
-C:/Users/Elena/Desktop/design-patterns-for-c/Flyweight/List/inc/ArrayList.h
+E:/ClionProjects/design-patterns-for-c/Flyweight/List/inc/ArrayList.h
 ../Map/inc/HashMap.h
-C:/Users/Elena/Desktop/design-patterns-for-c/Flyweight/Map/inc/HashMap.h
+E:/ClionProjects/design-patterns-for-c/Flyweight/Map/inc/HashMap.h
 
-C:/Users/Elena/Desktop/design-patterns-for-c/Flyweight/src/Flyweight.c
+E:/ClionProjects/design-patterns-for-c/Flyweight/src/Flyweight.c
 ../inc/Flyweight.h
-C:/Users/Elena/Desktop/design-patterns-for-c/Flyweight/inc/Flyweight.h
+E:/ClionProjects/design-patterns-for-c/Flyweight/inc/Flyweight.h
 stdio.h
-C:/Users/Elena/Desktop/design-patterns-for-c/Flyweight/src/stdio.h
+E:/ClionProjects/design-patterns-for-c/Flyweight/src/stdio.h
 stdlib.h
-C:/Users/Elena/Desktop/design-patterns-for-c/Flyweight/src/stdlib.h
+E:/ClionProjects/design-patterns-for-c/Flyweight/src/stdlib.h
 

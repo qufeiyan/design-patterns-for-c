@@ -133,19 +133,34 @@ public Potion *createPotion(PotionFactory *self,PotionType type){
 public static void delPotion(PotionType type,Potion *potion){
     switch(type){
         case HEALING:
-            delHealingPotion((HealingPotion*)potion);
+            if (NULL != potion) {
+                delHealingPotion((HealingPotion *) potion);
+                potion = NULL;
+            }
             break;
         case HOLY_WATER:
-            delHolyWaterPotion((HolyWaterPotion*)potion);
+            if (NULL != potion) {
+                delHolyWaterPotion((HolyWaterPotion*)potion);
+                potion = NULL;
+            }
             break;
         case INVISIBILITY:
-            delInvisibilityPotion((InvisibilityPotion *)potion);
+            if (NULL != potion) {
+                delInvisibilityPotion((InvisibilityPotion *)potion);
+                potion = NULL;
+            }
             break;
         case POISON:
-            delPoisonPotion((PoisonPotion*)potion);
+            if (NULL != potion) {
+                delPoisonPotion((PoisonPotion*)potion);
+                potion = NULL;
+            }
             break;
         case STRENGTH:
-            delStrengthPotion((StrengthPotion*)potion);
+            if (NULL != potion) {
+                delStrengthPotion((StrengthPotion*)potion);
+                potion = NULL;
+            }
             break;
         default:
             break;
@@ -161,7 +176,7 @@ public PotionFactory *newPotionFactory(void){
 public void delPotionFactory(PotionFactory *self){
     if (self != NULL){
         if (self->potions != NULL){
-         //   self->potions->forEach(self->potions,delPotion);
+            self->potions->forEach(self->potions,delPotion);
             freeHashMap(self->potions);
         }
         free(self);
@@ -174,12 +189,23 @@ public void delPotionFactory(PotionFactory *self){
 static void Potion_drink(Potion *potion){
     potion->drink(potion);
 }
-
-static void delPotion1(Potion *potion){
-    if (potion != NULL){
-        free(potion);
-    }
-}
+    //. 仅对重复对象引用相邻的情况有用。
+//static void delPotion1(Potion *potion){
+//    static Potion *temp = NULL; //used to prevent repeated release.
+//    if (potion != NULL){
+//        if (temp == NULL) {
+//            free(potion);
+//            temp = potion;
+//            potion = NULL;
+//        }else if (temp == potion){
+//            //.nothing to do.
+//        }else if (temp != NULL && temp != potion){
+//            free(potion);
+//            temp = potion;
+//            potion = NULL;
+//        }
+//    }
+//}
 
 /** @brief member method for AlchemistShop--------------*/
 public static void enumerate(AlchemistShop *self){
@@ -196,14 +222,14 @@ public const ArrayList *getBottomShelf(AlchemistShop *self){
     return self->bottomShelf->clone(self->bottomShelf);
 }
 
-AlchemistShop *newAlchemistShop(void){
+AlchemistShop *newAlchemistShop(PotionFactory *factory){
     AlchemistShop *self = malloc(sizeof(AlchemistShop));
     self->topShelf = createArrayList(10);
     self->bottomShelf = createArrayList(10);
     self->enumerate = enumerate;
     self->getBottomShelf = getBottomShelf;
     self->getTopShelf = getTopShelf;
-    PotionFactory *factory = newPotionFactory();
+
     self->topShelf->append(self->topShelf,
             factory->createPotion(factory,INVISIBILITY));
     self->topShelf->append(self->topShelf,
@@ -232,13 +258,15 @@ AlchemistShop *newAlchemistShop(void){
     self->bottomShelf->append(self->bottomShelf,
             factory->createPotion(factory,HOLY_WATER));
 
-    delPotionFactory(factory);
+    //delPotionFactory(factory);
+
+    self->factory = factory;
     return self;
 }
 void delAlchemistShop(AlchemistShop *self){
     if (self != NULL){
-        self->topShelf->forEach(self->topShelf,delPotion1);
-        self->bottomShelf->forEach(self->bottomShelf,delPotion1);
+//        self->topShelf->forEach(self->topShelf,delPotion1); //. 对象在factory中释放。shop只负责释放list。
+//        self->bottomShelf->forEach(self->bottomShelf,delPotion1);
         deleteArrayList(self->topShelf);
         deleteArrayList(self->bottomShelf);
         free(self);

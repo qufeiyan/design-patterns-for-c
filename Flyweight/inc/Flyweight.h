@@ -93,11 +93,12 @@ public void delPotionFactory(PotionFactory *self);
  */
 class AlchemistShop AlchemistShop;
 public class AlchemistShop{
+    PotionFactory *factory;
     private ArrayList *topShelf;
     private ArrayList *bottomShelf;
     public const ArrayList *(*getTopShelf)(AlchemistShop *self);
     public const ArrayList *(*getBottomShelf)(AlchemistShop *self);
     public void (*enumerate)();
 }AlchemistShop;
-AlchemistShop *newAlchemistShop(void);
+AlchemistShop *newAlchemistShop(PotionFactory *factory);
 void delAlchemistShop(AlchemistShop *);

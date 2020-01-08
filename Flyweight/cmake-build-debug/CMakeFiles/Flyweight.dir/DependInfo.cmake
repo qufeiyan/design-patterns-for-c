@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/Elena/Desktop/design-patterns-for-c/Flyweight/List/src/ArrayList.c" "C:/Users/Elena/Desktop/design-patterns-for-c/Flyweight/cmake-build-debug/CMakeFiles/Flyweight.dir/List/src/ArrayList.c.obj"
-  "C:/Users/Elena/Desktop/design-patterns-for-c/Flyweight/Map/src/HashMap.c" "C:/Users/Elena/Desktop/design-patterns-for-c/Flyweight/cmake-build-debug/CMakeFiles/Flyweight.dir/Map/src/HashMap.c.obj"
-  "C:/Users/Elena/Desktop/design-patterns-for-c/Flyweight/main.c" "C:/Users/Elena/Desktop/design-patterns-for-c/Flyweight/cmake-build-debug/CMakeFiles/Flyweight.dir/main.c.obj"
-  "C:/Users/Elena/Desktop/design-patterns-for-c/Flyweight/src/Flyweight.c" "C:/Users/Elena/Desktop/design-patterns-for-c/Flyweight/cmake-build-debug/CMakeFiles/Flyweight.dir/src/Flyweight.c.obj"
+  "E:/ClionProjects/design-patterns-for-c/Flyweight/List/src/ArrayList.c" "E:/ClionProjects/design-patterns-for-c/Flyweight/cmake-build-debug/CMakeFiles/Flyweight.dir/List/src/ArrayList.c.obj"
+  "E:/ClionProjects/design-patterns-for-c/Flyweight/Map/src/HashMap.c" "E:/ClionProjects/design-patterns-for-c/Flyweight/cmake-build-debug/CMakeFiles/Flyweight.dir/Map/src/HashMap.c.obj"
+  "E:/ClionProjects/design-patterns-for-c/Flyweight/main.c" "E:/ClionProjects/design-patterns-for-c/Flyweight/cmake-build-debug/CMakeFiles/Flyweight.dir/main.c.obj"
+  "E:/ClionProjects/design-patterns-for-c/Flyweight/src/Flyweight.c" "E:/ClionProjects/design-patterns-for-c/Flyweight/cmake-build-debug/CMakeFiles/Flyweight.dir/src/Flyweight.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
