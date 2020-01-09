@@ -1,26 +1,68 @@
 @startuml
-
-abstract class AbstractList
-abstract AbstractCollection
-interface List
-interface Collection
-
-List <|-- AbstractList
-Collection <|-- AbstractCollection
-
-Collection <|- List
-AbstractCollection <|- AbstractList
-AbstractList <|-- ArrayList
-
-class ArrayList {
-Object[] elementData
-size()
+package Chain_of_Responsibility{
+    class App{
+        + main()
+    }
+    abstract class RequestHandler {
+        - next : RequestHandler
+        + handleRequest(self : RequestHandler,req : Request)
+        # printHandling(self : RequestHandler,req : Request)
+        - setNextHandler(self : RequestHandler,req : Request)
+        + toString(self : RequestHandler) : String {abstract}
+        ==
+    }
+    class OrcCommander{
+        + super : RequestHandler
+        ==
+        + newOrcCommander()
+        + delOrcCommander(self : OrcCommander)
+    }
+    class OrcOfficer{
+        + super : RequestHandler
+        ==
+        + newOrcOfficer()
+        + delOrcOfficer(self : OrcOfficer)
+    }
+    class OrcSoldier{
+        + super : RequestHandler
+        ==
+        + newOrcSoldier()
+        + delOrcSoldier(self : OrcSoldier)
+    }
+    class OrcKing{
+        - chain : RequestHandler
+        - buildChain(self : OrcKing)
+        - breakChain(self : OrcKing)
+        + makeRequest(self: OrcKing,req : Request)
+        ==
+        + newOrcKing()
+        + delOrcKing(self : OrcKing)
+    }
+    class Request{
+        - handled : boolean
+        - requestDescription : String
+        - requestType : RequestType
+        + getRequestDescription() : String
+        + getRequestType() : RequestType
+        + isHandled() : boolean
+        + markHandled()
+        + toString() : String
+        ==
+        + newRequest(requestType : RequestType, requestDescription : String)
+        + delRequest(self : Request)
+    }
+    enum RequestType {
+        + COLLECT_TAX {static}
+        + DEFEND_CASTLE {static}
+        + TORTURE_PRISONER {static}
+    }
+    App --> OrcKing
+    Request -->  "-requestType" RequestType
+    OrcKing --> "-chain" RequestHandler
+    RequestHandler --> "-next" RequestHandler
+    Request <-- RequestHandler
+    RequestHandler <|-- OrcCommander
+    RequestHandler <|-- OrcOfficer
+    RequestHandler <|-- OrcSoldier
 }
-
-enum TimeUnit {
-DAYS
-HOURS
-MINUTES
-}
-
 @enduml

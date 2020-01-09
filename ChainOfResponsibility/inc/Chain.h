@@ -23,26 +23,16 @@ class Request Request;
 class RequestHandler RequestHandler;
 public abstract class RequestHandler {
     private RequestHandler *next;
-    public void (*RequestHandler)(RequestHandler *next);
-    public void (*handleRequest)(Request *req);
-    protected void (*printHandling)(Request *req);
-    public abstract char *(*toString)();
+    public void (*handleRequest)(RequestHandler *self,Request *req);
+    protected void (*printHandling)(RequestHandler *self,Request *req);
+    private void (*setNextHandler)(RequestHandler *self,RequestHandler *next);
+    public abstract char *(*toString)(RequestHandler *self);
 }RequestHandler;
-
-/**
- * OrcKing makes requests that are handled by the chain.
- */
-public class OrcKing{
-    private RequestHandler *chain;
-
-}OrcKing;
-
 
 /**
  * RequestType enumeration.
  */
 public typedef enum RequestType {
-
     DEFEND_CASTLE,
     TORTURE_PRISONER,
     COLLECT_TAX
@@ -57,7 +47,7 @@ public class Request {
      * The type of this request, used by each item in the chain to see if they should or can handle
      * this particular request.
      */
-    private const RequestType requestType;
+    private RequestType requestType;
 
     /**
      * A description of the request.
@@ -73,7 +63,7 @@ public class Request {
      *
      * @return A human readable description of the request
      */
-    public char* (*getRequestDescription)();
+    public const char* (*getRequestDescription)(Request *self);
 
     /**
      * Get the type of this request, used by each person in the chain of command to see if they should
@@ -81,7 +71,7 @@ public class Request {
      *
      * @return The request type
      */
-    public RequestType* (*getRequestType)();
+    public RequestType (*getRequestType)(Request *self);
     /**
      * Mark the request as handled.
      */
@@ -99,5 +89,44 @@ Request *newRequest(const RequestType requestType,
         const char* requestDescription);
 void delRequest(Request *self);
 
+/**
+ * OrcCommander.
+ */
+#define extends_RequestHandler
+public class OrcCommander extends_RequestHandler{
+    RequestHandler super;
+}OrcCommander;
+OrcCommander *newOrcCommander(RequestHandler *handler);
+void delOrcCommander(OrcCommander *self);
 
+/**
+ * OrcOfficer.
+ */
+public class OrcOfficer extends_RequestHandler {
+    RequestHandler super;
+}OrcOfficer;
+OrcOfficer *newOrcOfficer(RequestHandler *handler);
+void delOrcOfficer(OrcOfficer *self);
 
+/**
+ * OrcSoldier.
+ */
+public class OrcSoldier extends_RequestHandler{
+    RequestHandler super;
+}OrcSoldier;
+OrcSoldier *newOrcSoldier(RequestHandler *handler);
+void delOrcSoldier(OrcSoldier *self);
+
+class OrcKing OrcKing;
+/**
+ * OrcKing makes requests that are handled by the chain.
+ */
+public class OrcKing{
+    private RequestHandler *chain;
+    private RequestHandler *commander,*officer,*soldier;
+    private void (*buildChain)(OrcKing *self);
+    private void (*breakChain)(OrcKing *self);
+    public void (*makeRequest)(OrcKing *self,Request *req);
+}OrcKing;
+OrcKing *newOrcKing(void);
+void delOrcKing(OrcKing *self);

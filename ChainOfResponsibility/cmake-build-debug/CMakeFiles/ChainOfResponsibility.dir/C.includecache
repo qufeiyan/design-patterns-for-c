@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/ClionProjects/design-patterns-for-c/ChainOfResponsibility/inc/Chain.h
+
+E:/ClionProjects/design-patterns-for-c/ChainOfResponsibility/main.c
+stdio.h
+-
+inc/Chain.h
+E:/ClionProjects/design-patterns-for-c/ChainOfResponsibility/inc/Chain.h
+
