@@ -310,8 +310,21 @@ delWizard(wizard);
 ```
 运行结果为：
 
-![alt text](result.png "result")
-
+```
+Goblin [size = normal] [visibility = visible]
+Wizard casts Shrink spell at Goblin
+Goblin [size = small] [visibility = visible]
+Wizard casts Invisibility spell at Goblin
+Goblin [size = small] [visibility = invisible]
+Wizard undoes Invisibility spell
+Goblin [size = small] [visibility = visible]
+Wizard undoes Shrink spell
+Goblin [size = normal] [visibility = visible]
+Wizard redoes Shrink spell
+Goblin [size = small] [visibility = visible]
+Wizard redoes Invisibility spell
+Goblin [size = small] [visibility = invisible]
+```
 ## Class diagram
 ![alt text](Command.png "Command")
 
