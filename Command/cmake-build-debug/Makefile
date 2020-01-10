@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = D:\Softwares\JetBrains\CLion\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = D:\Softwares\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Elena\Desktop\design-patterns-for-c\Command
+CMAKE_SOURCE_DIR = E:\ClionProjects\design-patterns-for-c\Command
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Elena\Desktop\design-patterns-for-c\Command\cmake-build-debug
+CMAKE_BINARY_DIR = E:\ClionProjects\design-patterns-for-c\Command\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = C:\Users\Elena\Desktop\design-patterns-for-c\Command\cmake-bu
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	D:\Softwares\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	D:\Softwares\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Elena\Desktop\design-patterns-for-c\Command\cmake-build-debug\CMakeFiles C:\Users\Elena\Desktop\design-patterns-for-c\Command\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\ClionProjects\design-patterns-for-c\Command\cmake-build-debug\CMakeFiles E:\ClionProjects\design-patterns-for-c\Command\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Elena\Desktop\design-patterns-for-c\Command\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\ClionProjects\design-patterns-for-c\Command\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -121,6 +121,33 @@ Command: cmake_check_build_system
 Command/fast:
 	$(MAKE) -f CMakeFiles\Command.dir\build.make CMakeFiles/Command.dir/build
 .PHONY : Command/fast
+
+LinkedList/LinkedList.obj: LinkedList/LinkedList.c.obj
+
+.PHONY : LinkedList/LinkedList.obj
+
+# target to build an object file
+LinkedList/LinkedList.c.obj:
+	$(MAKE) -f CMakeFiles\Command.dir\build.make CMakeFiles/Command.dir/LinkedList/LinkedList.c.obj
+.PHONY : LinkedList/LinkedList.c.obj
+
+LinkedList/LinkedList.i: LinkedList/LinkedList.c.i
+
+.PHONY : LinkedList/LinkedList.i
+
+# target to preprocess a source file
+LinkedList/LinkedList.c.i:
+	$(MAKE) -f CMakeFiles\Command.dir\build.make CMakeFiles/Command.dir/LinkedList/LinkedList.c.i
+.PHONY : LinkedList/LinkedList.c.i
+
+LinkedList/LinkedList.s: LinkedList/LinkedList.c.s
+
+.PHONY : LinkedList/LinkedList.s
+
+# target to generate assembly for a file
+LinkedList/LinkedList.c.s:
+	$(MAKE) -f CMakeFiles\Command.dir\build.make CMakeFiles/Command.dir/LinkedList/LinkedList.c.s
+.PHONY : LinkedList/LinkedList.c.s
 
 main.obj: main.c.obj
 
@@ -185,6 +212,9 @@ help:
 	@echo ... Command
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... LinkedList/LinkedList.obj
+	@echo ... LinkedList/LinkedList.i
+	@echo ... LinkedList/LinkedList.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

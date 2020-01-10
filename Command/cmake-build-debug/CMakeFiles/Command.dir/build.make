@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = D:\Softwares\JetBrains\CLion\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = D:\Softwares\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Elena\Desktop\design-patterns-for-c\Command
+CMAKE_SOURCE_DIR = E:\ClionProjects\design-patterns-for-c\Command
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Elena\Desktop\design-patterns-for-c\Command\cmake-build-debug
+CMAKE_BINARY_DIR = E:\ClionProjects\design-patterns-for-c\Command\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Command.dir/depend.make
@@ -58,45 +58,60 @@ include CMakeFiles/Command.dir/flags.make
 
 CMakeFiles/Command.dir/main.c.obj: CMakeFiles/Command.dir/flags.make
 CMakeFiles/Command.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elena\Desktop\design-patterns-for-c\Command\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Command.dir/main.c.obj"
-	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Command.dir\main.c.obj   -c C:\Users\Elena\Desktop\design-patterns-for-c\Command\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\ClionProjects\design-patterns-for-c\Command\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Command.dir/main.c.obj"
+	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Command.dir\main.c.obj   -c E:\ClionProjects\design-patterns-for-c\Command\main.c
 
 CMakeFiles/Command.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Command.dir/main.c.i"
-	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elena\Desktop\design-patterns-for-c\Command\main.c > CMakeFiles\Command.dir\main.c.i
+	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\ClionProjects\design-patterns-for-c\Command\main.c > CMakeFiles\Command.dir\main.c.i
 
 CMakeFiles/Command.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Command.dir/main.c.s"
-	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elena\Desktop\design-patterns-for-c\Command\main.c -o CMakeFiles\Command.dir\main.c.s
+	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\ClionProjects\design-patterns-for-c\Command\main.c -o CMakeFiles\Command.dir\main.c.s
+
+CMakeFiles/Command.dir/LinkedList/LinkedList.c.obj: CMakeFiles/Command.dir/flags.make
+CMakeFiles/Command.dir/LinkedList/LinkedList.c.obj: ../LinkedList/LinkedList.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\ClionProjects\design-patterns-for-c\Command\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Command.dir/LinkedList/LinkedList.c.obj"
+	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Command.dir\LinkedList\LinkedList.c.obj   -c E:\ClionProjects\design-patterns-for-c\Command\LinkedList\LinkedList.c
+
+CMakeFiles/Command.dir/LinkedList/LinkedList.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Command.dir/LinkedList/LinkedList.c.i"
+	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\ClionProjects\design-patterns-for-c\Command\LinkedList\LinkedList.c > CMakeFiles\Command.dir\LinkedList\LinkedList.c.i
+
+CMakeFiles/Command.dir/LinkedList/LinkedList.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Command.dir/LinkedList/LinkedList.c.s"
+	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\ClionProjects\design-patterns-for-c\Command\LinkedList\LinkedList.c -o CMakeFiles\Command.dir\LinkedList\LinkedList.c.s
 
 CMakeFiles/Command.dir/src/Command.c.obj: CMakeFiles/Command.dir/flags.make
 CMakeFiles/Command.dir/src/Command.c.obj: ../src/Command.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elena\Desktop\design-patterns-for-c\Command\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Command.dir/src/Command.c.obj"
-	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Command.dir\src\Command.c.obj   -c C:\Users\Elena\Desktop\design-patterns-for-c\Command\src\Command.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\ClionProjects\design-patterns-for-c\Command\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Command.dir/src/Command.c.obj"
+	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Command.dir\src\Command.c.obj   -c E:\ClionProjects\design-patterns-for-c\Command\src\Command.c
 
 CMakeFiles/Command.dir/src/Command.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Command.dir/src/Command.c.i"
-	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elena\Desktop\design-patterns-for-c\Command\src\Command.c > CMakeFiles\Command.dir\src\Command.c.i
+	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\ClionProjects\design-patterns-for-c\Command\src\Command.c > CMakeFiles\Command.dir\src\Command.c.i
 
 CMakeFiles/Command.dir/src/Command.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Command.dir/src/Command.c.s"
-	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elena\Desktop\design-patterns-for-c\Command\src\Command.c -o CMakeFiles\Command.dir\src\Command.c.s
+	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\ClionProjects\design-patterns-for-c\Command\src\Command.c -o CMakeFiles\Command.dir\src\Command.c.s
 
 # Object files for target Command
 Command_OBJECTS = \
 "CMakeFiles/Command.dir/main.c.obj" \
+"CMakeFiles/Command.dir/LinkedList/LinkedList.c.obj" \
 "CMakeFiles/Command.dir/src/Command.c.obj"
 
 # External object files for target Command
 Command_EXTERNAL_OBJECTS =
 
 Command.exe: CMakeFiles/Command.dir/main.c.obj
+Command.exe: CMakeFiles/Command.dir/LinkedList/LinkedList.c.obj
 Command.exe: CMakeFiles/Command.dir/src/Command.c.obj
 Command.exe: CMakeFiles/Command.dir/build.make
 Command.exe: CMakeFiles/Command.dir/linklibs.rsp
 Command.exe: CMakeFiles/Command.dir/objects1.rsp
 Command.exe: CMakeFiles/Command.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Elena\Desktop\design-patterns-for-c\Command\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Command.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\ClionProjects\design-patterns-for-c\Command\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable Command.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Command.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -109,6 +124,6 @@ CMakeFiles/Command.dir/clean:
 .PHONY : CMakeFiles/Command.dir/clean
 
 CMakeFiles/Command.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Elena\Desktop\design-patterns-for-c\Command C:\Users\Elena\Desktop\design-patterns-for-c\Command C:\Users\Elena\Desktop\design-patterns-for-c\Command\cmake-build-debug C:\Users\Elena\Desktop\design-patterns-for-c\Command\cmake-build-debug C:\Users\Elena\Desktop\design-patterns-for-c\Command\cmake-build-debug\CMakeFiles\Command.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\ClionProjects\design-patterns-for-c\Command E:\ClionProjects\design-patterns-for-c\Command E:\ClionProjects\design-patterns-for-c\Command\cmake-build-debug E:\ClionProjects\design-patterns-for-c\Command\cmake-build-debug E:\ClionProjects\design-patterns-for-c\Command\cmake-build-debug\CMakeFiles\Command.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Command.dir/depend
 
