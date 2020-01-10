@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Command.dir/LinkedList/LinkedList.c.obj"
   "CMakeFiles/Command.dir/main.c.obj"
   "CMakeFiles/Command.dir/src/Command.c.obj"
   "Command.exe"

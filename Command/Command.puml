@@ -1,0 +1,70 @@
+@startuml
+package Command{
+    class App{
+        + main()
+    }
+    abstract class Command{
+        + execute(Target) {abstract}
+        + redo() {abstract}
+        + toString() : String(char *) {abstract}
+        + undo() {abstract}
+        ==
+    }
+    class InvisibilitySpell{
+        - super : Command
+        - target : Target
+        ==
+        + newInvisibilitySpell() : InvisibilitySpell
+        + delInvisibilitySpell(self : InvisibilitySpell)
+    }
+    class ShrinkSpell{
+        - super : Command
+        - target : Target
+        ==
+        + newShrinkSpell() : ShrinkSpell
+        + delShrinkSpell(self : ShrinkSpell)
+    }
+    class Goblin{
+        - super : Target
+        ==
+        + newGoblin() : Goblin
+        - delGoblin(self : Goblin)
+    }
+    abstract class Target{
+        + getSize() : Size
+        + getVisibility() : Visibility
+        + printStatus()
+        + setSize(size : Size)
+        + setVisibility(visibility : Visibility)
+        + toString() : String(char*) {abstract}
+    }
+    enum Visibility{
+        + INVISIBLE {static}
+        + VISIBLE {static}
+    }
+    enum Size{
+        + NORMAL {static}
+        + SMALL {static}
+    }
+    class Wizard{
+        - redoStack : LinkedList
+        - undoStack : LinkedList
+        + castSpell(command : Command,target : Target)
+        + redoLastSpell()
+        + toString() : String(char *)
+        + undoLastSpell()
+        ==
+        + newWizard() : Wizard
+        + delWizard(self : Wizard)
+    }
+    Target -->  "-size" Size
+    Target -->  "-visibility" Visibility
+    Wizard -->  "-undoStack" Command
+    ShrinkSpell -->  "-oldSize" Size
+    InvisibilitySpell -->  "-target" Target
+    ShrinkSpell -->  "-target" Target
+    Command <|-- ShrinkSpell
+    Command <|-- InvisibilitySpell
+    Target <|-- Goblin
+}
+@enduml

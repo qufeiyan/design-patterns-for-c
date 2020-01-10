@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/ClionProjects/design-patterns-for-c/Command/LinkedList/LinkedList.h
+stdlib.h
+E:/ClionProjects/design-patterns-for-c/Command/LinkedList/stdlib.h
+
+E:/ClionProjects/design-patterns-for-c/Command/inc/Command.h
+../LinkedList/LinkedList.h
+E:/ClionProjects/design-patterns-for-c/Command/LinkedList/LinkedList.h
+
+E:/ClionProjects/design-patterns-for-c/Command/src/Command.c
+../inc/Command.h
+E:/ClionProjects/design-patterns-for-c/Command/inc/Command.h
+stdio.h
+E:/ClionProjects/design-patterns-for-c/Command/src/stdio.h
+malloc.h
+E:/ClionProjects/design-patterns-for-c/Command/src/malloc.h
+
