@@ -1,0 +1,3 @@
+C:/Users/Elena/CLionProjects/Iterator/cmake-build-debug/CMakeFiles/Iterator.dir
+C:/Users/Elena/CLionProjects/Iterator/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Elena/CLionProjects/Iterator/cmake-build-debug/CMakeFiles/rebuild_cache.dir
