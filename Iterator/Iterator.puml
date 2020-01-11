@@ -1,0 +1,51 @@
+@startuml
+package Iterator{
+    interface Iterator{
+        + hasNext() : boolean {abstract}
+        + next() : T(void *) {abstract}
+    }
+    class Item{
+        - name : char*
+        - type : ItemType
+        + getType() : ItemType
+        + setType(type : ItemType)
+        + toString() : char*
+        ==
+        + newItem() : Item*
+        - delItem(self : Item*)
+    }
+    enum ItemType{
+        + ANY {static}
+        + POTION {station}
+        + RING {static}
+        + WEAPON {static}
+    }
+    class TreasureChest{
+        - items : ArrayList*
+        + getItems() : ArrayList*
+        + iterator(itemType : ItemType) : Iterator<Item> *
+        ==
+        + newTreaSureChest() : TreasureChest*
+        + delTreasureChest(self : TreasureChest*)
+    }
+    class TreasureChestItemIterator {
+        - chest : TreasureChest*
+        - idx : int
+        - type : ItemType
+        - findNextIdx() : int
+        + hasNext() : boolean
+        + next() : Item*
+        ==
+        + newTreasureChestItemIterator(chest : TreasureChest*, type : ItemType) : ~
+        - delTreasureChestItemIterator(self : ~)
+    }
+    ItemType <-- "-type" Item
+    TreasureChestItemIterator -->  "-type" ItemType
+    TreasureChestItemIterator -->  "-chest" TreasureChest
+    TreasureChest -->  "-items" Item
+    TreasureChestItemIterator ..|> Iterator
+    App --> TreasureChest
+    App --> Iterator
+
+}
+@enduml

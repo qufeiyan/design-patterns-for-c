@@ -1,6 +1,9 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Iterator.dir/List/Item.c.obj"
+  "CMakeFiles/Iterator.dir/List/TreasureChest.c.obj"
+  "CMakeFiles/Iterator.dir/List/TreasureChestItemIterator.c.obj"
+  "CMakeFiles/Iterator.dir/List/src/ArrayList.c.obj"
   "CMakeFiles/Iterator.dir/main.c.obj"
-  "CMakeFiles/Iterator.dir/src/Iterator.c.obj"
   "Iterator.exe"
   "Iterator.exe.manifest"
   "Iterator.pdb"

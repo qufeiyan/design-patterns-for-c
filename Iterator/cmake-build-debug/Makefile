@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = D:\Softwares\JetBrains\CLion\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = D:\Softwares\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Elena\CLionProjects\Iterator
+CMAKE_SOURCE_DIR = E:\ClionProjects\design-patterns-for-c\Iterator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Elena\CLionProjects\Iterator\cmake-build-debug
+CMAKE_BINARY_DIR = E:\ClionProjects\design-patterns-for-c\Iterator\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = C:\Users\Elena\CLionProjects\Iterator\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	D:\Softwares\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	D:\Softwares\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Elena\CLionProjects\Iterator\cmake-build-debug\CMakeFiles C:\Users\Elena\CLionProjects\Iterator\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\ClionProjects\design-patterns-for-c\Iterator\cmake-build-debug\CMakeFiles E:\ClionProjects\design-patterns-for-c\Iterator\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Elena\CLionProjects\Iterator\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\ClionProjects\design-patterns-for-c\Iterator\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,6 +122,114 @@ Iterator/fast:
 	$(MAKE) -f CMakeFiles\Iterator.dir\build.make CMakeFiles/Iterator.dir/build
 .PHONY : Iterator/fast
 
+List/Item.obj: List/Item.c.obj
+
+.PHONY : List/Item.obj
+
+# target to build an object file
+List/Item.c.obj:
+	$(MAKE) -f CMakeFiles\Iterator.dir\build.make CMakeFiles/Iterator.dir/List/Item.c.obj
+.PHONY : List/Item.c.obj
+
+List/Item.i: List/Item.c.i
+
+.PHONY : List/Item.i
+
+# target to preprocess a source file
+List/Item.c.i:
+	$(MAKE) -f CMakeFiles\Iterator.dir\build.make CMakeFiles/Iterator.dir/List/Item.c.i
+.PHONY : List/Item.c.i
+
+List/Item.s: List/Item.c.s
+
+.PHONY : List/Item.s
+
+# target to generate assembly for a file
+List/Item.c.s:
+	$(MAKE) -f CMakeFiles\Iterator.dir\build.make CMakeFiles/Iterator.dir/List/Item.c.s
+.PHONY : List/Item.c.s
+
+List/TreasureChest.obj: List/TreasureChest.c.obj
+
+.PHONY : List/TreasureChest.obj
+
+# target to build an object file
+List/TreasureChest.c.obj:
+	$(MAKE) -f CMakeFiles\Iterator.dir\build.make CMakeFiles/Iterator.dir/List/TreasureChest.c.obj
+.PHONY : List/TreasureChest.c.obj
+
+List/TreasureChest.i: List/TreasureChest.c.i
+
+.PHONY : List/TreasureChest.i
+
+# target to preprocess a source file
+List/TreasureChest.c.i:
+	$(MAKE) -f CMakeFiles\Iterator.dir\build.make CMakeFiles/Iterator.dir/List/TreasureChest.c.i
+.PHONY : List/TreasureChest.c.i
+
+List/TreasureChest.s: List/TreasureChest.c.s
+
+.PHONY : List/TreasureChest.s
+
+# target to generate assembly for a file
+List/TreasureChest.c.s:
+	$(MAKE) -f CMakeFiles\Iterator.dir\build.make CMakeFiles/Iterator.dir/List/TreasureChest.c.s
+.PHONY : List/TreasureChest.c.s
+
+List/TreasureChestItemIterator.obj: List/TreasureChestItemIterator.c.obj
+
+.PHONY : List/TreasureChestItemIterator.obj
+
+# target to build an object file
+List/TreasureChestItemIterator.c.obj:
+	$(MAKE) -f CMakeFiles\Iterator.dir\build.make CMakeFiles/Iterator.dir/List/TreasureChestItemIterator.c.obj
+.PHONY : List/TreasureChestItemIterator.c.obj
+
+List/TreasureChestItemIterator.i: List/TreasureChestItemIterator.c.i
+
+.PHONY : List/TreasureChestItemIterator.i
+
+# target to preprocess a source file
+List/TreasureChestItemIterator.c.i:
+	$(MAKE) -f CMakeFiles\Iterator.dir\build.make CMakeFiles/Iterator.dir/List/TreasureChestItemIterator.c.i
+.PHONY : List/TreasureChestItemIterator.c.i
+
+List/TreasureChestItemIterator.s: List/TreasureChestItemIterator.c.s
+
+.PHONY : List/TreasureChestItemIterator.s
+
+# target to generate assembly for a file
+List/TreasureChestItemIterator.c.s:
+	$(MAKE) -f CMakeFiles\Iterator.dir\build.make CMakeFiles/Iterator.dir/List/TreasureChestItemIterator.c.s
+.PHONY : List/TreasureChestItemIterator.c.s
+
+List/src/ArrayList.obj: List/src/ArrayList.c.obj
+
+.PHONY : List/src/ArrayList.obj
+
+# target to build an object file
+List/src/ArrayList.c.obj:
+	$(MAKE) -f CMakeFiles\Iterator.dir\build.make CMakeFiles/Iterator.dir/List/src/ArrayList.c.obj
+.PHONY : List/src/ArrayList.c.obj
+
+List/src/ArrayList.i: List/src/ArrayList.c.i
+
+.PHONY : List/src/ArrayList.i
+
+# target to preprocess a source file
+List/src/ArrayList.c.i:
+	$(MAKE) -f CMakeFiles\Iterator.dir\build.make CMakeFiles/Iterator.dir/List/src/ArrayList.c.i
+.PHONY : List/src/ArrayList.c.i
+
+List/src/ArrayList.s: List/src/ArrayList.c.s
+
+.PHONY : List/src/ArrayList.s
+
+# target to generate assembly for a file
+List/src/ArrayList.c.s:
+	$(MAKE) -f CMakeFiles\Iterator.dir\build.make CMakeFiles/Iterator.dir/List/src/ArrayList.c.s
+.PHONY : List/src/ArrayList.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -149,33 +257,6 @@ main.c.s:
 	$(MAKE) -f CMakeFiles\Iterator.dir\build.make CMakeFiles/Iterator.dir/main.c.s
 .PHONY : main.c.s
 
-src/Iterator.obj: src/Iterator.c.obj
-
-.PHONY : src/Iterator.obj
-
-# target to build an object file
-src/Iterator.c.obj:
-	$(MAKE) -f CMakeFiles\Iterator.dir\build.make CMakeFiles/Iterator.dir/src/Iterator.c.obj
-.PHONY : src/Iterator.c.obj
-
-src/Iterator.i: src/Iterator.c.i
-
-.PHONY : src/Iterator.i
-
-# target to preprocess a source file
-src/Iterator.c.i:
-	$(MAKE) -f CMakeFiles\Iterator.dir\build.make CMakeFiles/Iterator.dir/src/Iterator.c.i
-.PHONY : src/Iterator.c.i
-
-src/Iterator.s: src/Iterator.c.s
-
-.PHONY : src/Iterator.s
-
-# target to generate assembly for a file
-src/Iterator.c.s:
-	$(MAKE) -f CMakeFiles\Iterator.dir\build.make CMakeFiles/Iterator.dir/src/Iterator.c.s
-.PHONY : src/Iterator.c.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -185,12 +266,21 @@ help:
 	@echo ... Iterator
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... List/Item.obj
+	@echo ... List/Item.i
+	@echo ... List/Item.s
+	@echo ... List/TreasureChest.obj
+	@echo ... List/TreasureChest.i
+	@echo ... List/TreasureChest.s
+	@echo ... List/TreasureChestItemIterator.obj
+	@echo ... List/TreasureChestItemIterator.i
+	@echo ... List/TreasureChestItemIterator.s
+	@echo ... List/src/ArrayList.obj
+	@echo ... List/src/ArrayList.i
+	@echo ... List/src/ArrayList.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... src/Iterator.obj
-	@echo ... src/Iterator.i
-	@echo ... src/Iterator.s
 .PHONY : help
 
 

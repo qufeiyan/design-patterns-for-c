@@ -2,10 +2,7 @@
 // Created by Elena on 2020/1/10.
 //
 
-#ifndef ITERATOR_ITERATOR_H
-#define ITERATOR_ITERATOR_H
-
-#endif //ITERATOR_ITERATOR_H
+#pragma once
 
 #ifndef COMMAND_COMMAND_H
 #define COMMAND_COMMAND_H
@@ -20,6 +17,13 @@
 #define protected
 #endif
 
+#ifndef BOOL
+#define BOOL
+typedef enum boolean{
+    false,
+    true
+}boolean;
+#endif
 
 
 

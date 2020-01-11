@@ -4,8 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/Elena/CLionProjects/Iterator/main.c" "C:/Users/Elena/CLionProjects/Iterator/cmake-build-debug/CMakeFiles/Iterator.dir/main.c.obj"
-  "C:/Users/Elena/CLionProjects/Iterator/src/Iterator.c" "C:/Users/Elena/CLionProjects/Iterator/cmake-build-debug/CMakeFiles/Iterator.dir/src/Iterator.c.obj"
+  "E:/ClionProjects/design-patterns-for-c/Iterator/List/Item.c" "E:/ClionProjects/design-patterns-for-c/Iterator/cmake-build-debug/CMakeFiles/Iterator.dir/List/Item.c.obj"
+  "E:/ClionProjects/design-patterns-for-c/Iterator/List/TreasureChest.c" "E:/ClionProjects/design-patterns-for-c/Iterator/cmake-build-debug/CMakeFiles/Iterator.dir/List/TreasureChest.c.obj"
+  "E:/ClionProjects/design-patterns-for-c/Iterator/List/TreasureChestItemIterator.c" "E:/ClionProjects/design-patterns-for-c/Iterator/cmake-build-debug/CMakeFiles/Iterator.dir/List/TreasureChestItemIterator.c.obj"
+  "E:/ClionProjects/design-patterns-for-c/Iterator/List/src/ArrayList.c" "E:/ClionProjects/design-patterns-for-c/Iterator/cmake-build-debug/CMakeFiles/Iterator.dir/List/src/ArrayList.c.obj"
+  "E:/ClionProjects/design-patterns-for-c/Iterator/main.c" "E:/ClionProjects/design-patterns-for-c/Iterator/cmake-build-debug/CMakeFiles/Iterator.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

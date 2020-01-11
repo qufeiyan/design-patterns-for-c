@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/ClionProjects/design-patterns-for-c/Iterator/Iterator.h
+OOPSupport.h
+E:/ClionProjects/design-patterns-for-c/Iterator/OOPSupport.h
+
+E:/ClionProjects/design-patterns-for-c/Iterator/List/Item.h
+stdlib.h
+-
+../OOPSupport.h
+E:/ClionProjects/design-patterns-for-c/Iterator/OOPSupport.h
+
+E:/ClionProjects/design-patterns-for-c/Iterator/List/TreasureChest.h
+../OOPSupport.h
+E:/ClionProjects/design-patterns-for-c/Iterator/OOPSupport.h
+../Iterator.h
+E:/ClionProjects/design-patterns-for-c/Iterator/Iterator.h
+Item.h
+E:/ClionProjects/design-patterns-for-c/Iterator/List/Item.h
+inc/ArrayList.h
+E:/ClionProjects/design-patterns-for-c/Iterator/List/inc/ArrayList.h
+
+E:/ClionProjects/design-patterns-for-c/Iterator/List/TreasureChestItemIterator.c
+TreasureChestItemIterator.h
+E:/ClionProjects/design-patterns-for-c/Iterator/List/TreasureChestItemIterator.h
+
+E:/ClionProjects/design-patterns-for-c/Iterator/List/TreasureChestItemIterator.h
+../OOPSupport.h
+E:/ClionProjects/design-patterns-for-c/Iterator/OOPSupport.h
+../Iterator.h
+E:/ClionProjects/design-patterns-for-c/Iterator/Iterator.h
+TreasureChest.h
+E:/ClionProjects/design-patterns-for-c/Iterator/List/TreasureChest.h
+
+E:/ClionProjects/design-patterns-for-c/Iterator/List/inc/ArrayList.h
+
+E:/ClionProjects/design-patterns-for-c/Iterator/OOPSupport.h
+

@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = D:\Softwares\JetBrains\CLion\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = D:\Softwares\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Elena\CLionProjects\Iterator
+CMAKE_SOURCE_DIR = E:\ClionProjects\design-patterns-for-c\Iterator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Elena\CLionProjects\Iterator\cmake-build-debug
+CMAKE_BINARY_DIR = E:\ClionProjects\design-patterns-for-c\Iterator\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Iterator.dir/depend.make
@@ -58,45 +58,90 @@ include CMakeFiles/Iterator.dir/flags.make
 
 CMakeFiles/Iterator.dir/main.c.obj: CMakeFiles/Iterator.dir/flags.make
 CMakeFiles/Iterator.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elena\CLionProjects\Iterator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Iterator.dir/main.c.obj"
-	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Iterator.dir\main.c.obj   -c C:\Users\Elena\CLionProjects\Iterator\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\ClionProjects\design-patterns-for-c\Iterator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Iterator.dir/main.c.obj"
+	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Iterator.dir\main.c.obj   -c E:\ClionProjects\design-patterns-for-c\Iterator\main.c
 
 CMakeFiles/Iterator.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Iterator.dir/main.c.i"
-	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elena\CLionProjects\Iterator\main.c > CMakeFiles\Iterator.dir\main.c.i
+	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\ClionProjects\design-patterns-for-c\Iterator\main.c > CMakeFiles\Iterator.dir\main.c.i
 
 CMakeFiles/Iterator.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Iterator.dir/main.c.s"
-	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elena\CLionProjects\Iterator\main.c -o CMakeFiles\Iterator.dir\main.c.s
+	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\ClionProjects\design-patterns-for-c\Iterator\main.c -o CMakeFiles\Iterator.dir\main.c.s
 
-CMakeFiles/Iterator.dir/src/Iterator.c.obj: CMakeFiles/Iterator.dir/flags.make
-CMakeFiles/Iterator.dir/src/Iterator.c.obj: ../src/Iterator.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elena\CLionProjects\Iterator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Iterator.dir/src/Iterator.c.obj"
-	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Iterator.dir\src\Iterator.c.obj   -c C:\Users\Elena\CLionProjects\Iterator\src\Iterator.c
+CMakeFiles/Iterator.dir/List/src/ArrayList.c.obj: CMakeFiles/Iterator.dir/flags.make
+CMakeFiles/Iterator.dir/List/src/ArrayList.c.obj: ../List/src/ArrayList.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\ClionProjects\design-patterns-for-c\Iterator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Iterator.dir/List/src/ArrayList.c.obj"
+	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Iterator.dir\List\src\ArrayList.c.obj   -c E:\ClionProjects\design-patterns-for-c\Iterator\List\src\ArrayList.c
 
-CMakeFiles/Iterator.dir/src/Iterator.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Iterator.dir/src/Iterator.c.i"
-	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elena\CLionProjects\Iterator\src\Iterator.c > CMakeFiles\Iterator.dir\src\Iterator.c.i
+CMakeFiles/Iterator.dir/List/src/ArrayList.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Iterator.dir/List/src/ArrayList.c.i"
+	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\ClionProjects\design-patterns-for-c\Iterator\List\src\ArrayList.c > CMakeFiles\Iterator.dir\List\src\ArrayList.c.i
 
-CMakeFiles/Iterator.dir/src/Iterator.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Iterator.dir/src/Iterator.c.s"
-	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elena\CLionProjects\Iterator\src\Iterator.c -o CMakeFiles\Iterator.dir\src\Iterator.c.s
+CMakeFiles/Iterator.dir/List/src/ArrayList.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Iterator.dir/List/src/ArrayList.c.s"
+	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\ClionProjects\design-patterns-for-c\Iterator\List\src\ArrayList.c -o CMakeFiles\Iterator.dir\List\src\ArrayList.c.s
+
+CMakeFiles/Iterator.dir/List/Item.c.obj: CMakeFiles/Iterator.dir/flags.make
+CMakeFiles/Iterator.dir/List/Item.c.obj: ../List/Item.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\ClionProjects\design-patterns-for-c\Iterator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Iterator.dir/List/Item.c.obj"
+	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Iterator.dir\List\Item.c.obj   -c E:\ClionProjects\design-patterns-for-c\Iterator\List\Item.c
+
+CMakeFiles/Iterator.dir/List/Item.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Iterator.dir/List/Item.c.i"
+	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\ClionProjects\design-patterns-for-c\Iterator\List\Item.c > CMakeFiles\Iterator.dir\List\Item.c.i
+
+CMakeFiles/Iterator.dir/List/Item.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Iterator.dir/List/Item.c.s"
+	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\ClionProjects\design-patterns-for-c\Iterator\List\Item.c -o CMakeFiles\Iterator.dir\List\Item.c.s
+
+CMakeFiles/Iterator.dir/List/TreasureChestItemIterator.c.obj: CMakeFiles/Iterator.dir/flags.make
+CMakeFiles/Iterator.dir/List/TreasureChestItemIterator.c.obj: ../List/TreasureChestItemIterator.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\ClionProjects\design-patterns-for-c\Iterator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Iterator.dir/List/TreasureChestItemIterator.c.obj"
+	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Iterator.dir\List\TreasureChestItemIterator.c.obj   -c E:\ClionProjects\design-patterns-for-c\Iterator\List\TreasureChestItemIterator.c
+
+CMakeFiles/Iterator.dir/List/TreasureChestItemIterator.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Iterator.dir/List/TreasureChestItemIterator.c.i"
+	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\ClionProjects\design-patterns-for-c\Iterator\List\TreasureChestItemIterator.c > CMakeFiles\Iterator.dir\List\TreasureChestItemIterator.c.i
+
+CMakeFiles/Iterator.dir/List/TreasureChestItemIterator.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Iterator.dir/List/TreasureChestItemIterator.c.s"
+	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\ClionProjects\design-patterns-for-c\Iterator\List\TreasureChestItemIterator.c -o CMakeFiles\Iterator.dir\List\TreasureChestItemIterator.c.s
+
+CMakeFiles/Iterator.dir/List/TreasureChest.c.obj: CMakeFiles/Iterator.dir/flags.make
+CMakeFiles/Iterator.dir/List/TreasureChest.c.obj: ../List/TreasureChest.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\ClionProjects\design-patterns-for-c\Iterator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Iterator.dir/List/TreasureChest.c.obj"
+	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Iterator.dir\List\TreasureChest.c.obj   -c E:\ClionProjects\design-patterns-for-c\Iterator\List\TreasureChest.c
+
+CMakeFiles/Iterator.dir/List/TreasureChest.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Iterator.dir/List/TreasureChest.c.i"
+	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\ClionProjects\design-patterns-for-c\Iterator\List\TreasureChest.c > CMakeFiles\Iterator.dir\List\TreasureChest.c.i
+
+CMakeFiles/Iterator.dir/List/TreasureChest.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Iterator.dir/List/TreasureChest.c.s"
+	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\ClionProjects\design-patterns-for-c\Iterator\List\TreasureChest.c -o CMakeFiles\Iterator.dir\List\TreasureChest.c.s
 
 # Object files for target Iterator
 Iterator_OBJECTS = \
 "CMakeFiles/Iterator.dir/main.c.obj" \
-"CMakeFiles/Iterator.dir/src/Iterator.c.obj"
+"CMakeFiles/Iterator.dir/List/src/ArrayList.c.obj" \
+"CMakeFiles/Iterator.dir/List/Item.c.obj" \
+"CMakeFiles/Iterator.dir/List/TreasureChestItemIterator.c.obj" \
+"CMakeFiles/Iterator.dir/List/TreasureChest.c.obj"
 
 # External object files for target Iterator
 Iterator_EXTERNAL_OBJECTS =
 
 Iterator.exe: CMakeFiles/Iterator.dir/main.c.obj
-Iterator.exe: CMakeFiles/Iterator.dir/src/Iterator.c.obj
+Iterator.exe: CMakeFiles/Iterator.dir/List/src/ArrayList.c.obj
+Iterator.exe: CMakeFiles/Iterator.dir/List/Item.c.obj
+Iterator.exe: CMakeFiles/Iterator.dir/List/TreasureChestItemIterator.c.obj
+Iterator.exe: CMakeFiles/Iterator.dir/List/TreasureChest.c.obj
 Iterator.exe: CMakeFiles/Iterator.dir/build.make
 Iterator.exe: CMakeFiles/Iterator.dir/linklibs.rsp
 Iterator.exe: CMakeFiles/Iterator.dir/objects1.rsp
 Iterator.exe: CMakeFiles/Iterator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Elena\CLionProjects\Iterator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Iterator.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\ClionProjects\design-patterns-for-c\Iterator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable Iterator.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Iterator.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -109,6 +154,6 @@ CMakeFiles/Iterator.dir/clean:
 .PHONY : CMakeFiles/Iterator.dir/clean
 
 CMakeFiles/Iterator.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Elena\CLionProjects\Iterator C:\Users\Elena\CLionProjects\Iterator C:\Users\Elena\CLionProjects\Iterator\cmake-build-debug C:\Users\Elena\CLionProjects\Iterator\cmake-build-debug C:\Users\Elena\CLionProjects\Iterator\cmake-build-debug\CMakeFiles\Iterator.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\ClionProjects\design-patterns-for-c\Iterator E:\ClionProjects\design-patterns-for-c\Iterator E:\ClionProjects\design-patterns-for-c\Iterator\cmake-build-debug E:\ClionProjects\design-patterns-for-c\Iterator\cmake-build-debug E:\ClionProjects\design-patterns-for-c\Iterator\cmake-build-debug\CMakeFiles\Iterator.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Iterator.dir/depend
 
