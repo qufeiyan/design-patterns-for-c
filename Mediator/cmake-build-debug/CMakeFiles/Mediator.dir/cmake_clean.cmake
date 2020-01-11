@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Mediator.dir/List/src/ArrayList.c.obj"
   "CMakeFiles/Mediator.dir/main.c.obj"
   "CMakeFiles/Mediator.dir/src/Party.c.obj"
   "Mediator.exe"

@@ -4,8 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "E:/ClionProjects/design-patterns-for-c/Mediator/main.c" "E:/ClionProjects/design-patterns-for-c/Mediator/cmake-build-debug/CMakeFiles/Mediator.dir/main.c.obj"
-  "E:/ClionProjects/design-patterns-for-c/Mediator/src/Party.c" "E:/ClionProjects/design-patterns-for-c/Mediator/cmake-build-debug/CMakeFiles/Mediator.dir/src/Party.c.obj"
+  "C:/Users/Elena/Desktop/design-patterns-for-c/Mediator/List/src/ArrayList.c" "C:/Users/Elena/Desktop/design-patterns-for-c/Mediator/cmake-build-debug/CMakeFiles/Mediator.dir/List/src/ArrayList.c.obj"
+  "C:/Users/Elena/Desktop/design-patterns-for-c/Mediator/main.c" "C:/Users/Elena/Desktop/design-patterns-for-c/Mediator/cmake-build-debug/CMakeFiles/Mediator.dir/main.c.obj"
+  "C:/Users/Elena/Desktop/design-patterns-for-c/Mediator/src/Party.c" "C:/Users/Elena/Desktop/design-patterns-for-c/Mediator/cmake-build-debug/CMakeFiles/Mediator.dir/src/Party.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

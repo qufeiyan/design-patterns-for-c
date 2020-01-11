@@ -46,7 +46,46 @@ void delPartyImpl(PartImpl *self);
  */
 #define implements_PartyMember
 public abstract class PartyMemberBase implements_PartyMember {
-    PartyMember *super;
+    PartyMember super;
     protected Party *party;
+    char* (*toString)();
 }PartyMemberBase;
+
+
+/**
+ * Rogue party member.
+ */
+#define extends_PartyMemberBase
+public class Rogue extends_PartyMemberBase {
+    PartyMemberBase super;
+}Rogue;
+Rogue *newRogue(void);
+void delRogue(Rogue *self);
+
+/**
+ * Wizard party member.
+ */
+public class Wizard extends_PartyMemberBase{
+    PartyMemberBase super;
+}Wizard;
+Wizard *newWizard(void);
+void delWizard(Wizard *self);
+
+/**
+ * Hunter party member.
+ */
+public class Hunter extends_PartyMemberBase{
+    PartyMemberBase super;
+}Hunter;
+Hunter *newHunter(void);
+void delHunter(Hunter *self);
+
+/**
+ * Hobbit party member.
+ */
+public class Hobbit extends_PartyMemberBase{
+    PartyMemberBase super;
+}Hobbit;
+Hobbit *newHobbit(void);
+void delHobbit(Hobbit *self);
 

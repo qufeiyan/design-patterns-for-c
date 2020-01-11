@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Elena/Desktop/design-patterns-for-c/Mediator/List/inc/ArrayList.h
+
+C:/Users/Elena/Desktop/design-patterns-for-c/Mediator/OOPSupport.h
+
+C:/Users/Elena/Desktop/design-patterns-for-c/Mediator/inc/Party.h
+../OOPSupport.h
+C:/Users/Elena/Desktop/design-patterns-for-c/Mediator/OOPSupport.h
+../List/inc/ArrayList.h
+C:/Users/Elena/Desktop/design-patterns-for-c/Mediator/List/inc/ArrayList.h
+
+C:/Users/Elena/Desktop/design-patterns-for-c/Mediator/src/Party.c
+../inc/Party.h
+C:/Users/Elena/Desktop/design-patterns-for-c/Mediator/inc/Party.h
+malloc.h
+C:/Users/Elena/Desktop/design-patterns-for-c/Mediator/src/malloc.h
+stdio.h
+C:/Users/Elena/Desktop/design-patterns-for-c/Mediator/src/stdio.h
+

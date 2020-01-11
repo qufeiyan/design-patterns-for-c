@@ -1,0 +1,34 @@
+@startuml
+package Mediator{
+    interface Party{
+        + act(PartyMember, Action) {abstract}
+        + addMember(PartyMember) {abstract} 
+    }
+    interface PartyMember{
+        + act(Action) {abstract}
+        + joinedParty(Party) {abstract}
+        + partyAction(Action) {abstract}
+    }
+    class PartyImpl{
+        - super : Party
+        - members : ArrayList<PartyMember> 
+        ==
+        + newPartyImpl() : PartyImpl
+        + delPartyImpl(self : PartyImpl)
+    }
+    abstract class PartyMemberBase{
+        - super : PartyMember
+        # party : Party
+        + toString() : char* {abstract}
+        ==
+    }
+    class Hobbit{
+        - super : PartyMemberBase
+        ==
+        + newHobbit() : Hobbit
+        + delHobbit(self : Hobbit)
+    }
+    
+    
+}
+@enduml

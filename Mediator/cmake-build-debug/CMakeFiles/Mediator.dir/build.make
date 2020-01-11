@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = D:\Softwares\JetBrains\CLion\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = D:\Softwares\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\ClionProjects\design-patterns-for-c\Mediator
+CMAKE_SOURCE_DIR = C:\Users\Elena\Desktop\design-patterns-for-c\Mediator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\ClionProjects\design-patterns-for-c\Mediator\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Elena\Desktop\design-patterns-for-c\Mediator\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Mediator.dir/depend.make
@@ -58,45 +58,60 @@ include CMakeFiles/Mediator.dir/flags.make
 
 CMakeFiles/Mediator.dir/main.c.obj: CMakeFiles/Mediator.dir/flags.make
 CMakeFiles/Mediator.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\ClionProjects\design-patterns-for-c\Mediator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Mediator.dir/main.c.obj"
-	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Mediator.dir\main.c.obj   -c E:\ClionProjects\design-patterns-for-c\Mediator\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elena\Desktop\design-patterns-for-c\Mediator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Mediator.dir/main.c.obj"
+	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Mediator.dir\main.c.obj   -c C:\Users\Elena\Desktop\design-patterns-for-c\Mediator\main.c
 
 CMakeFiles/Mediator.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Mediator.dir/main.c.i"
-	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\ClionProjects\design-patterns-for-c\Mediator\main.c > CMakeFiles\Mediator.dir\main.c.i
+	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elena\Desktop\design-patterns-for-c\Mediator\main.c > CMakeFiles\Mediator.dir\main.c.i
 
 CMakeFiles/Mediator.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Mediator.dir/main.c.s"
-	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\ClionProjects\design-patterns-for-c\Mediator\main.c -o CMakeFiles\Mediator.dir\main.c.s
+	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elena\Desktop\design-patterns-for-c\Mediator\main.c -o CMakeFiles\Mediator.dir\main.c.s
+
+CMakeFiles/Mediator.dir/List/src/ArrayList.c.obj: CMakeFiles/Mediator.dir/flags.make
+CMakeFiles/Mediator.dir/List/src/ArrayList.c.obj: ../List/src/ArrayList.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elena\Desktop\design-patterns-for-c\Mediator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Mediator.dir/List/src/ArrayList.c.obj"
+	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Mediator.dir\List\src\ArrayList.c.obj   -c C:\Users\Elena\Desktop\design-patterns-for-c\Mediator\List\src\ArrayList.c
+
+CMakeFiles/Mediator.dir/List/src/ArrayList.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Mediator.dir/List/src/ArrayList.c.i"
+	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elena\Desktop\design-patterns-for-c\Mediator\List\src\ArrayList.c > CMakeFiles\Mediator.dir\List\src\ArrayList.c.i
+
+CMakeFiles/Mediator.dir/List/src/ArrayList.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Mediator.dir/List/src/ArrayList.c.s"
+	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elena\Desktop\design-patterns-for-c\Mediator\List\src\ArrayList.c -o CMakeFiles\Mediator.dir\List\src\ArrayList.c.s
 
 CMakeFiles/Mediator.dir/src/Party.c.obj: CMakeFiles/Mediator.dir/flags.make
 CMakeFiles/Mediator.dir/src/Party.c.obj: ../src/Party.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\ClionProjects\design-patterns-for-c\Mediator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Mediator.dir/src/Party.c.obj"
-	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Mediator.dir\src\Party.c.obj   -c E:\ClionProjects\design-patterns-for-c\Mediator\src\Party.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elena\Desktop\design-patterns-for-c\Mediator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Mediator.dir/src/Party.c.obj"
+	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Mediator.dir\src\Party.c.obj   -c C:\Users\Elena\Desktop\design-patterns-for-c\Mediator\src\Party.c
 
 CMakeFiles/Mediator.dir/src/Party.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Mediator.dir/src/Party.c.i"
-	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\ClionProjects\design-patterns-for-c\Mediator\src\Party.c > CMakeFiles\Mediator.dir\src\Party.c.i
+	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elena\Desktop\design-patterns-for-c\Mediator\src\Party.c > CMakeFiles\Mediator.dir\src\Party.c.i
 
 CMakeFiles/Mediator.dir/src/Party.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Mediator.dir/src/Party.c.s"
-	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\ClionProjects\design-patterns-for-c\Mediator\src\Party.c -o CMakeFiles\Mediator.dir\src\Party.c.s
+	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elena\Desktop\design-patterns-for-c\Mediator\src\Party.c -o CMakeFiles\Mediator.dir\src\Party.c.s
 
 # Object files for target Mediator
 Mediator_OBJECTS = \
 "CMakeFiles/Mediator.dir/main.c.obj" \
+"CMakeFiles/Mediator.dir/List/src/ArrayList.c.obj" \
 "CMakeFiles/Mediator.dir/src/Party.c.obj"
 
 # External object files for target Mediator
 Mediator_EXTERNAL_OBJECTS =
 
 Mediator.exe: CMakeFiles/Mediator.dir/main.c.obj
+Mediator.exe: CMakeFiles/Mediator.dir/List/src/ArrayList.c.obj
 Mediator.exe: CMakeFiles/Mediator.dir/src/Party.c.obj
 Mediator.exe: CMakeFiles/Mediator.dir/build.make
 Mediator.exe: CMakeFiles/Mediator.dir/linklibs.rsp
 Mediator.exe: CMakeFiles/Mediator.dir/objects1.rsp
 Mediator.exe: CMakeFiles/Mediator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\ClionProjects\design-patterns-for-c\Mediator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Mediator.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Elena\Desktop\design-patterns-for-c\Mediator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable Mediator.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Mediator.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -109,6 +124,6 @@ CMakeFiles/Mediator.dir/clean:
 .PHONY : CMakeFiles/Mediator.dir/clean
 
 CMakeFiles/Mediator.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\ClionProjects\design-patterns-for-c\Mediator E:\ClionProjects\design-patterns-for-c\Mediator E:\ClionProjects\design-patterns-for-c\Mediator\cmake-build-debug E:\ClionProjects\design-patterns-for-c\Mediator\cmake-build-debug E:\ClionProjects\design-patterns-for-c\Mediator\cmake-build-debug\CMakeFiles\Mediator.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Elena\Desktop\design-patterns-for-c\Mediator C:\Users\Elena\Desktop\design-patterns-for-c\Mediator C:\Users\Elena\Desktop\design-patterns-for-c\Mediator\cmake-build-debug C:\Users\Elena\Desktop\design-patterns-for-c\Mediator\cmake-build-debug C:\Users\Elena\Desktop\design-patterns-for-c\Mediator\cmake-build-debug\CMakeFiles\Mediator.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Mediator.dir/depend
 
