@@ -1,5 +1,8 @@
-@startuml
+@startuml mediator 
 package Mediator{
+    class App{
+        + main()
+    }
     interface Party{
         + act(PartyMember, Action) {abstract}
         + addMember(PartyMember) {abstract} 
@@ -28,7 +31,41 @@ package Mediator{
         + newHobbit() : Hobbit
         + delHobbit(self : Hobbit)
     }
+    class Hunter{
+        - super : PartyMemberBase
+        ==
+        + newHunter() : Hunter
+        + delHunter(self : Hunter)
+    }
+    class Rogue{
+        - super : PartyMemberBase
+        ==
+        + newRogue() : Rogue
+        + delRogue(self : Rogue)
+    }
+    class Wizard{
+        - super : Wizard
+        ==
+        + newWizard() : Wizard
+        + delWizard(self : Wizard)
+    }
+    enum Action{
+        + ENEMY {static}
+        + GOLD {static}
+        + HUNT {static}
+        + NONE {static}
+        + TALE {static}
+    }
     
+
+    PartyImpl ..|> Party
+    PartyMemberBase ..|> PartyMember
+    PartyImpl --> "-members" PartyMember 
+    Party "-party" <-- PartyMemberBase
     
+    Hobbit --|> PartyMemberBase
+    Hunter --|> PartyMemberBase
+    Rogue --|> PartyMemberBase
+    Wizard --|> PartyMemberBase 
 }
 @enduml
