@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Elena/Desktop/design-patterns-for-c/Memento/main.c
+stdio.h
+-
+stdlib.h
+C:/Users/Elena/Desktop/design-patterns-for-c/Memento/stdlib.h
+string.h
+C:/Users/Elena/Desktop/design-patterns-for-c/Memento/string.h
+
