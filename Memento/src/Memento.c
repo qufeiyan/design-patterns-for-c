@@ -66,8 +66,11 @@ public static char* toString(Star *self){
             typeTitle(self->type),self->ageYears,self->massTons);
     return buffer;
 }
-Star *newStar(void){
+Star *newStar(StarType starType, int starAge, int starMass){
     Star *self = malloc(sizeof(Star));
+    self->type = starType;
+    self->ageYears = starAge;
+    self->massTons = starMass;
     self->getMemento = getMemento;
     self->setMemento = setMemento;
     self->timePasses = timePasses;

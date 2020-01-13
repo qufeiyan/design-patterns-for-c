@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Memento.dir/Stack/List/src/ArrayList.c.obj"
+  "CMakeFiles/Memento.dir/Stack/Stack.c.obj"
   "CMakeFiles/Memento.dir/main.c.obj"
   "CMakeFiles/Memento.dir/src/Memento.c.obj"
   "Memento.exe"

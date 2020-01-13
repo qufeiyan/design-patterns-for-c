@@ -1,11 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\Elena\Desktop\design-patterns-for-c\Memento
--- The C compiler identification is GNU 5.3.0
--- Check for working C compiler: D:/Qt/Qt5.11.1/Tools/mingw530_32/bin/gcc.exe
--- Check for working C compiler: D:/Qt/Qt5.11.1/Tools/mingw530_32/bin/gcc.exe -- works
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Detecting C compile features
--- Detecting C compile features - done
+D:\Softwares\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\ClionProjects\design-patterns-for-c\Memento
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/Elena/Desktop/design-patterns-for-c/Memento/cmake-build-debug
+-- Build files have been written to: E:/ClionProjects/design-patterns-for-c/Memento/cmake-build-debug

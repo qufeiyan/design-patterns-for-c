@@ -38,7 +38,7 @@ public class Star{
     void (*setMemento)(Star*,StarMemento*);
     char* (*toString)(Star *self);
 }Star;
-Star *newStar(void);
+Star *newStar(StarType starType, int starAge, int starMass);
 void delStar(Star *);
 /**
  * StarMemento implementation.

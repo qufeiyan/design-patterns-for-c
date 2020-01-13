@@ -1,0 +1,48 @@
+@startuml memento
+package memento{
+    class App{
+        + main()
+    }
+    class Star{
+        - ageYears : int
+        - massTons : int
+        - type : StarType
+        ~ getMemento() : StarMemento
+        ~ setMemento(memento : StarMemento)
+        + timePasses()
+        + toString() : String
+        ==
+        + newStar(startType : StarType, startAge : int, startMass : int)
+        + delStar(self)
+    }
+    class StarMementoInternal {
+        - ageYears : int
+        - massTons : int
+        - type : StarType
+        + getAgeYears() : int
+        + getMassTons() : int
+        + getType() : StarType
+        + setAgeYears(ageYears : int)
+        + setMassTons(massTons : int)
+        + setType(type : StarType)
+        ==
+        + newStarMementoInternal() : StarMementoInternal*
+        + delStarMementoInternal(self)
+    }
+    interface StarMemento {
+    }
+    enum StarType {
+        + DEAD {static}
+        + RED_GIANT {static}
+        + SUN {static}
+        + SUPERNOVA {static}
+        + UNDEFINED {static}
+        + WHITE_DWARF {static}
+    }
+    App --> StarMemento
+    StarMementoInternal -->  "-type" StarType
+    Star -->  "-type" StarType
+    StarMementoInternal <.. Star
+    StarMementoInternal ..|> StarMemento
+}
+@enduml

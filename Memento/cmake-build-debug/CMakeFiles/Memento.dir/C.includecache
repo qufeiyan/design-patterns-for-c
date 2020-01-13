@@ -6,11 +6,27 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Elena/Desktop/design-patterns-for-c/Memento/main.c
+E:/ClionProjects/design-patterns-for-c/Memento/OOPSupport.h
+
+E:/ClionProjects/design-patterns-for-c/Memento/Stack/List/inc/ArrayList.h
+
+E:/ClionProjects/design-patterns-for-c/Memento/Stack/Stack.h
+List/inc/ArrayList.h
+E:/ClionProjects/design-patterns-for-c/Memento/Stack/List/inc/ArrayList.h
+
+E:/ClionProjects/design-patterns-for-c/Memento/inc/Memento.h
+../OOPSupport.h
+E:/ClionProjects/design-patterns-for-c/Memento/OOPSupport.h
+
+E:/ClionProjects/design-patterns-for-c/Memento/main.c
 stdio.h
 -
 stdlib.h
-C:/Users/Elena/Desktop/design-patterns-for-c/Memento/stdlib.h
+E:/ClionProjects/design-patterns-for-c/Memento/stdlib.h
 string.h
-C:/Users/Elena/Desktop/design-patterns-for-c/Memento/string.h
+E:/ClionProjects/design-patterns-for-c/Memento/string.h
+inc/Memento.h
+E:/ClionProjects/design-patterns-for-c/Memento/inc/Memento.h
+Stack/Stack.h
+E:/ClionProjects/design-patterns-for-c/Memento/Stack/Stack.h
 

@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = D:\Softwares\JetBrains\CLion\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = D:\Softwares\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Elena\Desktop\design-patterns-for-c\Memento
+CMAKE_SOURCE_DIR = E:\ClionProjects\design-patterns-for-c\Memento
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Elena\Desktop\design-patterns-for-c\Memento\cmake-build-debug
+CMAKE_BINARY_DIR = E:\ClionProjects\design-patterns-for-c\Memento\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = C:\Users\Elena\Desktop\design-patterns-for-c\Memento\cmake-bu
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	D:\Softwares\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	D:\Softwares\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Elena\Desktop\design-patterns-for-c\Memento\cmake-build-debug\CMakeFiles C:\Users\Elena\Desktop\design-patterns-for-c\Memento\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\ClionProjects\design-patterns-for-c\Memento\cmake-build-debug\CMakeFiles E:\ClionProjects\design-patterns-for-c\Memento\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Elena\Desktop\design-patterns-for-c\Memento\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\ClionProjects\design-patterns-for-c\Memento\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -121,6 +121,60 @@ Memento: cmake_check_build_system
 Memento/fast:
 	$(MAKE) -f CMakeFiles\Memento.dir\build.make CMakeFiles/Memento.dir/build
 .PHONY : Memento/fast
+
+Stack/List/src/ArrayList.obj: Stack/List/src/ArrayList.c.obj
+
+.PHONY : Stack/List/src/ArrayList.obj
+
+# target to build an object file
+Stack/List/src/ArrayList.c.obj:
+	$(MAKE) -f CMakeFiles\Memento.dir\build.make CMakeFiles/Memento.dir/Stack/List/src/ArrayList.c.obj
+.PHONY : Stack/List/src/ArrayList.c.obj
+
+Stack/List/src/ArrayList.i: Stack/List/src/ArrayList.c.i
+
+.PHONY : Stack/List/src/ArrayList.i
+
+# target to preprocess a source file
+Stack/List/src/ArrayList.c.i:
+	$(MAKE) -f CMakeFiles\Memento.dir\build.make CMakeFiles/Memento.dir/Stack/List/src/ArrayList.c.i
+.PHONY : Stack/List/src/ArrayList.c.i
+
+Stack/List/src/ArrayList.s: Stack/List/src/ArrayList.c.s
+
+.PHONY : Stack/List/src/ArrayList.s
+
+# target to generate assembly for a file
+Stack/List/src/ArrayList.c.s:
+	$(MAKE) -f CMakeFiles\Memento.dir\build.make CMakeFiles/Memento.dir/Stack/List/src/ArrayList.c.s
+.PHONY : Stack/List/src/ArrayList.c.s
+
+Stack/Stack.obj: Stack/Stack.c.obj
+
+.PHONY : Stack/Stack.obj
+
+# target to build an object file
+Stack/Stack.c.obj:
+	$(MAKE) -f CMakeFiles\Memento.dir\build.make CMakeFiles/Memento.dir/Stack/Stack.c.obj
+.PHONY : Stack/Stack.c.obj
+
+Stack/Stack.i: Stack/Stack.c.i
+
+.PHONY : Stack/Stack.i
+
+# target to preprocess a source file
+Stack/Stack.c.i:
+	$(MAKE) -f CMakeFiles\Memento.dir\build.make CMakeFiles/Memento.dir/Stack/Stack.c.i
+.PHONY : Stack/Stack.c.i
+
+Stack/Stack.s: Stack/Stack.c.s
+
+.PHONY : Stack/Stack.s
+
+# target to generate assembly for a file
+Stack/Stack.c.s:
+	$(MAKE) -f CMakeFiles\Memento.dir\build.make CMakeFiles/Memento.dir/Stack/Stack.c.s
+.PHONY : Stack/Stack.c.s
 
 main.obj: main.c.obj
 
@@ -185,6 +239,12 @@ help:
 	@echo ... Memento
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Stack/List/src/ArrayList.obj
+	@echo ... Stack/List/src/ArrayList.i
+	@echo ... Stack/List/src/ArrayList.s
+	@echo ... Stack/Stack.obj
+	@echo ... Stack/Stack.i
+	@echo ... Stack/Stack.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -8,82 +8,96 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Elena/Desktop/design-patterns-for-c/Memento/cmake-build-debug"/>
+				<Option working_dir="E:/ClionProjects/design-patterns-for-c/Memento/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Qt/Qt5.11.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/Elena/Desktop/design-patterns-for-c/Memento/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/Qt/Qt5.11.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/Elena/Desktop/design-patterns-for-c/Memento/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Qt/Qt5.11.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/Elena/Desktop/design-patterns-for-c/Memento/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Qt/Qt5.11.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/Elena/Desktop/design-patterns-for-c/Memento/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Softwares/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/ClionProjects/design-patterns-for-c/Memento/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Softwares/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/ClionProjects/design-patterns-for-c/Memento/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Softwares/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/ClionProjects/design-patterns-for-c/Memento/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Softwares/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/ClionProjects/design-patterns-for-c/Memento/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Memento">
-				<Option output="C:/Users/Elena/Desktop/design-patterns-for-c/Memento/cmake-build-debug/Memento.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Elena/Desktop/design-patterns-for-c/Memento/cmake-build-debug"/>
+				<Option output="E:/ClionProjects/design-patterns-for-c/Memento/cmake-build-debug/Memento.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ClionProjects/design-patterns-for-c/Memento/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Qt/Qt5.11.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include"/>
-					<Add directory="D:/Qt/Qt5.11.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include-fixed"/>
-					<Add directory="D:/Qt/Qt5.11.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="D:/Softwares/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
+					<Add directory="D:/Softwares/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
+					<Add directory="D:/Softwares/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="D:/Softwares/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Qt/Qt5.11.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/Elena/Desktop/design-patterns-for-c/Memento/cmake-build-debug/Makefile&quot;  VERBOSE=1 Memento"/>
-					<CompileFile command="D:/Qt/Qt5.11.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/Elena/Desktop/design-patterns-for-c/Memento/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Qt/Qt5.11.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/Elena/Desktop/design-patterns-for-c/Memento/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Qt/Qt5.11.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/Elena/Desktop/design-patterns-for-c/Memento/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Softwares/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/ClionProjects/design-patterns-for-c/Memento/cmake-build-debug/Makefile&quot;  VERBOSE=1 Memento"/>
+					<CompileFile command="D:/Softwares/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/ClionProjects/design-patterns-for-c/Memento/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Softwares/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/ClionProjects/design-patterns-for-c/Memento/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Softwares/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/ClionProjects/design-patterns-for-c/Memento/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Memento/fast">
-				<Option output="C:/Users/Elena/Desktop/design-patterns-for-c/Memento/cmake-build-debug/Memento.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Elena/Desktop/design-patterns-for-c/Memento/cmake-build-debug"/>
+				<Option output="E:/ClionProjects/design-patterns-for-c/Memento/cmake-build-debug/Memento.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ClionProjects/design-patterns-for-c/Memento/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Qt/Qt5.11.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include"/>
-					<Add directory="D:/Qt/Qt5.11.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include-fixed"/>
-					<Add directory="D:/Qt/Qt5.11.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="D:/Softwares/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
+					<Add directory="D:/Softwares/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
+					<Add directory="D:/Softwares/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="D:/Softwares/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Qt/Qt5.11.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/Elena/Desktop/design-patterns-for-c/Memento/cmake-build-debug/Makefile&quot;  VERBOSE=1 Memento/fast"/>
-					<CompileFile command="D:/Qt/Qt5.11.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/Elena/Desktop/design-patterns-for-c/Memento/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Qt/Qt5.11.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/Elena/Desktop/design-patterns-for-c/Memento/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Qt/Qt5.11.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/Elena/Desktop/design-patterns-for-c/Memento/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Softwares/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/ClionProjects/design-patterns-for-c/Memento/cmake-build-debug/Makefile&quot;  VERBOSE=1 Memento/fast"/>
+					<CompileFile command="D:/Softwares/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/ClionProjects/design-patterns-for-c/Memento/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Softwares/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/ClionProjects/design-patterns-for-c/Memento/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Softwares/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/ClionProjects/design-patterns-for-c/Memento/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Elena/Desktop/design-patterns-for-c/Memento/cmake-build-debug"/>
+				<Option working_dir="E:/ClionProjects/design-patterns-for-c/Memento/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Qt/Qt5.11.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/Elena/Desktop/design-patterns-for-c/Memento/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/Qt/Qt5.11.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/Elena/Desktop/design-patterns-for-c/Memento/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Qt/Qt5.11.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/Elena/Desktop/design-patterns-for-c/Memento/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Qt/Qt5.11.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/Elena/Desktop/design-patterns-for-c/Memento/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Softwares/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/ClionProjects/design-patterns-for-c/Memento/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Softwares/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/ClionProjects/design-patterns-for-c/Memento/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Softwares/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/ClionProjects/design-patterns-for-c/Memento/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Softwares/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/ClionProjects/design-patterns-for-c/Memento/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Elena/Desktop/design-patterns-for-c/Memento/cmake-build-debug"/>
+				<Option working_dir="E:/ClionProjects/design-patterns-for-c/Memento/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Qt/Qt5.11.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/Elena/Desktop/design-patterns-for-c/Memento/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/Qt/Qt5.11.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/Elena/Desktop/design-patterns-for-c/Memento/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Qt/Qt5.11.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/Elena/Desktop/design-patterns-for-c/Memento/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Qt/Qt5.11.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/Elena/Desktop/design-patterns-for-c/Memento/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Softwares/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/ClionProjects/design-patterns-for-c/Memento/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Softwares/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/ClionProjects/design-patterns-for-c/Memento/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Softwares/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/ClionProjects/design-patterns-for-c/Memento/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Softwares/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/ClionProjects/design-patterns-for-c/Memento/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Elena/Desktop/design-patterns-for-c/Memento/inc/Memento.h">
+		<Unit filename="E:/ClionProjects/design-patterns-for-c/Memento/Stack/List/inc/ArrayList.h">
 			<Option target="Memento"/>
 		</Unit>
-		<Unit filename="C:/Users/Elena/Desktop/design-patterns-for-c/Memento/main.c">
+		<Unit filename="E:/ClionProjects/design-patterns-for-c/Memento/Stack/List/src/ArrayList.c">
 			<Option target="Memento"/>
 		</Unit>
-		<Unit filename="C:/Users/Elena/Desktop/design-patterns-for-c/Memento/src/Memento.c">
+		<Unit filename="E:/ClionProjects/design-patterns-for-c/Memento/Stack/Stack.c">
 			<Option target="Memento"/>
 		</Unit>
-		<Unit filename="C:/Users/Elena/Desktop/design-patterns-for-c/Memento/CMakeLists.txt">
+		<Unit filename="E:/ClionProjects/design-patterns-for-c/Memento/Stack/Stack.h">
+			<Option target="Memento"/>
+		</Unit>
+		<Unit filename="E:/ClionProjects/design-patterns-for-c/Memento/inc/Memento.h">
+			<Option target="Memento"/>
+		</Unit>
+		<Unit filename="E:/ClionProjects/design-patterns-for-c/Memento/main.c">
+			<Option target="Memento"/>
+		</Unit>
+		<Unit filename="E:/ClionProjects/design-patterns-for-c/Memento/src/Memento.c">
+			<Option target="Memento"/>
+		</Unit>
+		<Unit filename="E:/ClionProjects/design-patterns-for-c/Memento/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

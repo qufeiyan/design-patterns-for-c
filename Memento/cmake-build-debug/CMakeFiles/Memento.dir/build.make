@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = D:\Softwares\JetBrains\CLion\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = D:\Softwares\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Elena\Desktop\design-patterns-for-c\Memento
+CMAKE_SOURCE_DIR = E:\ClionProjects\design-patterns-for-c\Memento
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Elena\Desktop\design-patterns-for-c\Memento\cmake-build-debug
+CMAKE_BINARY_DIR = E:\ClionProjects\design-patterns-for-c\Memento\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Memento.dir/depend.make
@@ -58,45 +58,75 @@ include CMakeFiles/Memento.dir/flags.make
 
 CMakeFiles/Memento.dir/main.c.obj: CMakeFiles/Memento.dir/flags.make
 CMakeFiles/Memento.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elena\Desktop\design-patterns-for-c\Memento\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Memento.dir/main.c.obj"
-	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Memento.dir\main.c.obj   -c C:\Users\Elena\Desktop\design-patterns-for-c\Memento\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\ClionProjects\design-patterns-for-c\Memento\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Memento.dir/main.c.obj"
+	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Memento.dir\main.c.obj   -c E:\ClionProjects\design-patterns-for-c\Memento\main.c
 
 CMakeFiles/Memento.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Memento.dir/main.c.i"
-	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elena\Desktop\design-patterns-for-c\Memento\main.c > CMakeFiles\Memento.dir\main.c.i
+	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\ClionProjects\design-patterns-for-c\Memento\main.c > CMakeFiles\Memento.dir\main.c.i
 
 CMakeFiles/Memento.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Memento.dir/main.c.s"
-	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elena\Desktop\design-patterns-for-c\Memento\main.c -o CMakeFiles\Memento.dir\main.c.s
+	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\ClionProjects\design-patterns-for-c\Memento\main.c -o CMakeFiles\Memento.dir\main.c.s
 
 CMakeFiles/Memento.dir/src/Memento.c.obj: CMakeFiles/Memento.dir/flags.make
 CMakeFiles/Memento.dir/src/Memento.c.obj: ../src/Memento.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elena\Desktop\design-patterns-for-c\Memento\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Memento.dir/src/Memento.c.obj"
-	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Memento.dir\src\Memento.c.obj   -c C:\Users\Elena\Desktop\design-patterns-for-c\Memento\src\Memento.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\ClionProjects\design-patterns-for-c\Memento\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Memento.dir/src/Memento.c.obj"
+	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Memento.dir\src\Memento.c.obj   -c E:\ClionProjects\design-patterns-for-c\Memento\src\Memento.c
 
 CMakeFiles/Memento.dir/src/Memento.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Memento.dir/src/Memento.c.i"
-	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Elena\Desktop\design-patterns-for-c\Memento\src\Memento.c > CMakeFiles\Memento.dir\src\Memento.c.i
+	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\ClionProjects\design-patterns-for-c\Memento\src\Memento.c > CMakeFiles\Memento.dir\src\Memento.c.i
 
 CMakeFiles/Memento.dir/src/Memento.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Memento.dir/src/Memento.c.s"
-	D:\Qt\Qt5.11.1\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Elena\Desktop\design-patterns-for-c\Memento\src\Memento.c -o CMakeFiles\Memento.dir\src\Memento.c.s
+	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\ClionProjects\design-patterns-for-c\Memento\src\Memento.c -o CMakeFiles\Memento.dir\src\Memento.c.s
+
+CMakeFiles/Memento.dir/Stack/Stack.c.obj: CMakeFiles/Memento.dir/flags.make
+CMakeFiles/Memento.dir/Stack/Stack.c.obj: ../Stack/Stack.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\ClionProjects\design-patterns-for-c\Memento\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Memento.dir/Stack/Stack.c.obj"
+	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Memento.dir\Stack\Stack.c.obj   -c E:\ClionProjects\design-patterns-for-c\Memento\Stack\Stack.c
+
+CMakeFiles/Memento.dir/Stack/Stack.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Memento.dir/Stack/Stack.c.i"
+	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\ClionProjects\design-patterns-for-c\Memento\Stack\Stack.c > CMakeFiles\Memento.dir\Stack\Stack.c.i
+
+CMakeFiles/Memento.dir/Stack/Stack.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Memento.dir/Stack/Stack.c.s"
+	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\ClionProjects\design-patterns-for-c\Memento\Stack\Stack.c -o CMakeFiles\Memento.dir\Stack\Stack.c.s
+
+CMakeFiles/Memento.dir/Stack/List/src/ArrayList.c.obj: CMakeFiles/Memento.dir/flags.make
+CMakeFiles/Memento.dir/Stack/List/src/ArrayList.c.obj: ../Stack/List/src/ArrayList.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\ClionProjects\design-patterns-for-c\Memento\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Memento.dir/Stack/List/src/ArrayList.c.obj"
+	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Memento.dir\Stack\List\src\ArrayList.c.obj   -c E:\ClionProjects\design-patterns-for-c\Memento\Stack\List\src\ArrayList.c
+
+CMakeFiles/Memento.dir/Stack/List/src/ArrayList.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Memento.dir/Stack/List/src/ArrayList.c.i"
+	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\ClionProjects\design-patterns-for-c\Memento\Stack\List\src\ArrayList.c > CMakeFiles\Memento.dir\Stack\List\src\ArrayList.c.i
+
+CMakeFiles/Memento.dir/Stack/List/src/ArrayList.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Memento.dir/Stack/List/src/ArrayList.c.s"
+	D:\Softwares\Dev-Cpp\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\ClionProjects\design-patterns-for-c\Memento\Stack\List\src\ArrayList.c -o CMakeFiles\Memento.dir\Stack\List\src\ArrayList.c.s
 
 # Object files for target Memento
 Memento_OBJECTS = \
 "CMakeFiles/Memento.dir/main.c.obj" \
-"CMakeFiles/Memento.dir/src/Memento.c.obj"
+"CMakeFiles/Memento.dir/src/Memento.c.obj" \
+"CMakeFiles/Memento.dir/Stack/Stack.c.obj" \
+"CMakeFiles/Memento.dir/Stack/List/src/ArrayList.c.obj"
 
 # External object files for target Memento
 Memento_EXTERNAL_OBJECTS =
 
 Memento.exe: CMakeFiles/Memento.dir/main.c.obj
 Memento.exe: CMakeFiles/Memento.dir/src/Memento.c.obj
+Memento.exe: CMakeFiles/Memento.dir/Stack/Stack.c.obj
+Memento.exe: CMakeFiles/Memento.dir/Stack/List/src/ArrayList.c.obj
 Memento.exe: CMakeFiles/Memento.dir/build.make
 Memento.exe: CMakeFiles/Memento.dir/linklibs.rsp
 Memento.exe: CMakeFiles/Memento.dir/objects1.rsp
 Memento.exe: CMakeFiles/Memento.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Elena\Desktop\design-patterns-for-c\Memento\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Memento.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\ClionProjects\design-patterns-for-c\Memento\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable Memento.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Memento.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -109,6 +139,6 @@ CMakeFiles/Memento.dir/clean:
 .PHONY : CMakeFiles/Memento.dir/clean
 
 CMakeFiles/Memento.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Elena\Desktop\design-patterns-for-c\Memento C:\Users\Elena\Desktop\design-patterns-for-c\Memento C:\Users\Elena\Desktop\design-patterns-for-c\Memento\cmake-build-debug C:\Users\Elena\Desktop\design-patterns-for-c\Memento\cmake-build-debug C:\Users\Elena\Desktop\design-patterns-for-c\Memento\cmake-build-debug\CMakeFiles\Memento.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\ClionProjects\design-patterns-for-c\Memento E:\ClionProjects\design-patterns-for-c\Memento E:\ClionProjects\design-patterns-for-c\Memento\cmake-build-debug E:\ClionProjects\design-patterns-for-c\Memento\cmake-build-debug E:\ClionProjects\design-patterns-for-c\Memento\cmake-build-debug\CMakeFiles\Memento.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Memento.dir/depend
 

@@ -4,8 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/Elena/Desktop/design-patterns-for-c/Memento/main.c" "C:/Users/Elena/Desktop/design-patterns-for-c/Memento/cmake-build-debug/CMakeFiles/Memento.dir/main.c.obj"
-  "C:/Users/Elena/Desktop/design-patterns-for-c/Memento/src/Memento.c" "C:/Users/Elena/Desktop/design-patterns-for-c/Memento/cmake-build-debug/CMakeFiles/Memento.dir/src/Memento.c.obj"
+  "E:/ClionProjects/design-patterns-for-c/Memento/Stack/List/src/ArrayList.c" "E:/ClionProjects/design-patterns-for-c/Memento/cmake-build-debug/CMakeFiles/Memento.dir/Stack/List/src/ArrayList.c.obj"
+  "E:/ClionProjects/design-patterns-for-c/Memento/Stack/Stack.c" "E:/ClionProjects/design-patterns-for-c/Memento/cmake-build-debug/CMakeFiles/Memento.dir/Stack/Stack.c.obj"
+  "E:/ClionProjects/design-patterns-for-c/Memento/main.c" "E:/ClionProjects/design-patterns-for-c/Memento/cmake-build-debug/CMakeFiles/Memento.dir/main.c.obj"
+  "E:/ClionProjects/design-patterns-for-c/Memento/src/Memento.c" "E:/ClionProjects/design-patterns-for-c/Memento/cmake-build-debug/CMakeFiles/Memento.dir/src/Memento.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
