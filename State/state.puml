@@ -1,0 +1,41 @@
+@startuml state
+package state{
+    interface State{
+        + observe() {abstract}
+        + onEnterState() {abstract}
+    }
+    class AngryState{
+        - super : State
+        - mammoth : Mammoth
+        ==
+        + newAngryState() : AngryState
+        + delAngryState(self)
+    }
+    class PeacefulState{
+        - super : State;
+        - mammoth : Mammoth
+        ==
+        + newPeacefulState() : PeacefulState
+        + delPeacefulState(self)
+    }
+    class Mammoth{
+        - state : State
+        - changeStateTo(newState : State)
+        + observe()
+        + timePasses()
+        + toString() : char*
+        ==
+        + newMammoth() : Mammoth
+        + delMammoth(self)
+    }
+    class App{
+        + main()
+    }
+
+    PeacefulState -->  "-mammoth" Mammoth
+    AngryState -->  "-mammoth" Mammoth
+    Mammoth -->  "-state" State
+    AngryState ..|> State
+    PeacefulState ..|> State
+}
+@enduml
