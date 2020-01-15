@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/ClionProjects/design-patterns-for-c/State/OOPSupport.h
+
+E:/ClionProjects/design-patterns-for-c/State/inc/State.h
+../OOPSupport.h
+E:/ClionProjects/design-patterns-for-c/State/OOPSupport.h
+
+E:/ClionProjects/design-patterns-for-c/State/main.c
+stdio.h
+-
+inc/State.h
+E:/ClionProjects/design-patterns-for-c/State/inc/State.h
+

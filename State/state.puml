@@ -6,26 +6,28 @@ package state{
     }
     class AngryState{
         - super : State
-        - mammoth : Mammoth
+        - mammoth : Mammoth*
         ==
-        + newAngryState() : AngryState
+        + newAngryState() : AngryState*
         + delAngryState(self)
     }
     class PeacefulState{
         - super : State;
-        - mammoth : Mammoth
+        - mammoth : Mammoth*
         ==
-        + newPeacefulState() : PeacefulState
+        + newPeacefulState() : PeacefulState*
         + delPeacefulState(self)
     }
     class Mammoth{
-        - state : State
-        - changeStateTo(newState : State)
+        - PEACEFUL_STATE : State*
+        - ANGRY_STATE : State*
+        - currentState : State*
+        - changeStateTo(newState : State*)
         + observe()
         + timePasses()
         + toString() : char*
         ==
-        + newMammoth() : Mammoth
+        + newMammoth() : Mammoth*
         + delMammoth(self)
     }
     class App{

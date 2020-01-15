@@ -2,23 +2,22 @@
 
 #include "../OOPSupport.h"
 
-typedef enum StateName{
-    PEACEFUL,
-    ANGRY
-}StateName;
-
 /**
  * State interface
  */
 public interface State{
     void (*onEnterState)();
     void (*observe)();
+    void (*setNextState)();
 }State;
 /**
  * Mammoth has internal state that defines its behavior.
  */
 public class Mammoth{
-    private State state;
+    State *PEACEFUL_STATE;
+    State *ANGRY_STATE;
+    private State *currentState;
+    public void (*setCurrentState)();
     public void (*timePasses)();
     private void (*changeStateTo)();
     public void (*observe)();
